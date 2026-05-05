@@ -162,12 +162,12 @@
       "Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
       "Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
       "Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
-  }, /// Barbarians
-  {
+  },
+  { /// Barbarians
     "name": "Barbarians",
     "outerColor": [0, 0, 0],
     "innerColor": [185, 12, 12]
-    "uniques": ["uniques": ["Can only heal by pillaging", "Excluded from map editor",
+    "uniques": ["Can only heal by pillaging", "Excluded from map editor",
       "[Water] units gain the [Unable to pillage tiles] promotion"]
   }
 ]
