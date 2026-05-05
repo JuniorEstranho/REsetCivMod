@@ -132,7 +132,6 @@
 		"attackSound": "arrow"
 	},
 	{
-	{
 		"name": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -277,7 +276,7 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
-  },
+	},
 	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
@@ -712,7 +711,7 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
-  {
+	{
     "name": "Bazooka",
     "unitType": "Gunpowder",
     "movement": 2,
@@ -722,7 +721,7 @@
     "cost": 375,
     "requiredTech": "Nuclear Fission",
     "attackSound": "tankshot"
-  },
+	},
 	{
 		"name": "Mobile SAM",
 		"unitType": "Gunpowder",
