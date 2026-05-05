@@ -57,10 +57,8 @@
     "outerColor": [43, 88, 46],
     "innerColor": [146, 221, 10],
     "favoredReligion": "Islam",
-
     "uniqueName": "Taqwa",
-    "uniques": ["Free [Great Prophet] appears <upon discovering [Writing] technology>",
-      "[+1 Faith] from every specialist [in all cities]"],
+    "uniques": ["Free [Great Prophet] appears <upon discovering [Writing] technology>"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 "Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",            "Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
@@ -87,12 +85,13 @@
 
     "tradeRequest": "Don't refuse my offer and me will be kind with you.",
 
-    "outerColor": [0,0,0],
-    "innerColor": [0,0,0],
+    "outerColor": [0, 148, 64],
+    "innerColor": [255, 203, 0],
     "favoredReligion": "Christianity",
     "uniqueName": "Ordem e Progresso",
-    "uniques": ["[-30]% Culture cost of natural border growth [in all cities]",
-      "[+30]% [Culture] [in all cities] <during a Golden Age>"],
+    "uniques": ["[-25]% Culture cost of natural border growth [in all cities]",
+      "[-25]% unhappiness from the number of cities",
+      "[+25]% [Culture] [in all cities] <during a Golden Age>"],
     "cities": ["Brasília","Rio de Janeiro"," São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
       "Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
       "Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
@@ -123,11 +122,52 @@
     "outerColor": [9, 12, 84],
     "innerColor": [255, 255, 255],
     "favoredReligion": "Taoism",
-    "uniqueName": "The Art of War",
-    "uniques": ["[+20]% Strength <for [{Military} {Land}] units> <in [Enemy Land] tiles>"],
+    "uniqueName": "Art of War",
+    "uniques": ["[-25]% XP required for promotions <for [Military] units>",
+      "[Great General] is earned [+50]% faster"],
     "cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
       "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
-      "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+      "Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi", 
       "Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
+  },
+  {
+    "name": "England",
+    "leaderName": "Victoria",
+    "adjective": "English"
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Diplomatic",
+    "personality": "Victoria",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "You're making a mess everywhere in the world, I'm already tired of you.",
+    "attacked": "if you want, i'll give it to you. prepare your army!",
+    "denounced": "What a daring attitude!",
+    "defeated": "We were not able, it's all yours now.",
+    "introduction": "Greetings from the England.",
+
+    "neutralHello": "Greetings.",
+    "hateHello": "Oh, it's you.",
+
+    "tradeRequest": "Would you be interested in a trade agreement with England?",
+
+    "outerColor": [225, 0, 0],
+    "innerColor": [255, 255, 255],
+    "favoredReligion": "Protestantism",
+    "uniqueName": "Victorian Age",
+    "uniques": ["[+50]% Golden Age length",
+      "[+2] Movement <for [Water] units>"],
+    "cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool", 
+      "Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+      "Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+      "Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
+  }, /// Barbarians
+  {
+    "name": "Barbarians",
+    "outerColor": [0, 0, 0],
+    "innerColor": [185, 12, 12]
+    "uniques": ["uniques": ["Can only heal by pillaging", "Excluded from map editor",
+      "[Water] units gain the [Unable to pillage tiles] promotion"]
   }
 ]
