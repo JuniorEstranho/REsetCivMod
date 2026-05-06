@@ -161,6 +161,37 @@
       "Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
       "Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
   },
+  {
+	"name": "Mali",
+    "leaderName": "Sundiata",
+    "adjective": "Malian",
+    "startBias": ["Avoid [Forest]", "Avoid [Jungle]"],
+    "preferredVictoryType": "Domination",
+    "personality": "Sundiata",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "I have no words to describe how long I've waited for this!",
+    "attacked": "I've already defeated sorcerers and wizards, you won't stand a chance!",
+    "denounced": "Others nations will know this!",
+    "defeated": "My mens are dead, the childs and womens too. You nothing than a monster!",
+    "introduction": "May God bless you. I'm the Great Sundiata Keita, unifier of the great Mali Empire. Come here, let's talk about your empire.",
+
+    "neutralHello": "Hello.",
+    "hateHello": "Ah... you...",
+
+    "tradeRequest": "I need your support!",
+
+    "outerColor": [201, 165, 118],
+    "innerColor": [125, 78, 12],
+    "favoredReligion": "Islam",
+    "uniqueName": "Mali Lion",
+    "uniques": ["[+1 Gold] from each Trade Route",
+		"[-25]% maintenance costs <for [{Military} {Land}] units>"],
+    "cities": ["Nyeni","Tombouctu","Gao","Djenne","Taghaza","Bamako","Kangaba","Dakadiala","Kiri","Kirina","Walata","Arawan","Tadmekka","Diara","Kumbi Saleh",
+	"Fadama","Koroussa","Narena","Diagassola","Siby","Siguiri","Tabon","Nioro","Kaniana","Kukukya"]
+  },
 	// City-States sorted by cityStateType, name
 	{
 		"name": "Brussels",
