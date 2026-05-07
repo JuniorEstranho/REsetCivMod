@@ -714,6 +714,10 @@
 		"uniques": ["[+2] Movement"]
 	},
 	{
+		"name": "Phalanx Formation", //Only for Hoplite and subsequent upgrades
+		"uniques": ["[+50]% to Flank Attack bonuses <when adjacent to a [Phalanx Formation] unit>", "[+50]% Strength <when defending> <vs [Ranged] units> <when adjacent to a [Phalanx Formation] unit>"]
+	},
+	{
 		"name": "[Jaguar] ability",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
 	},
@@ -727,15 +731,15 @@
 	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
+		"uniques": ["Heals [50] damage if it kills a unit"]
 	},
 	{
 		"name": "[Mandekalu Cavalry] ability",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]", "No movement cost to pillage"]
 	},
 	{
-		"name": "[Hussar] ability",
-		"uniques": ["[+50]% to Flank Attack bonuses"]
+		"name": "[Cossack] ability",
+		"uniques": ["[+25]% Strength <when attacking>", "Withdraws before melee combat <with [75]% chance>"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
@@ -748,7 +752,7 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["Can move after attacking"]
 	},
 	{
 		"name": "[Zero] ability",
