@@ -13,7 +13,7 @@
     "attacked": "You're shaking things up on the continent!",
     "denounced": "Are you looking for trouble?",
     "defeated": "Terror has arrived in our lands. The day is yours.",
-    "introduction": "",
+    "introduction": "The United States of America gives you the Greetings.",
 
     "neutralHello": "Good day.",
     "hateHello": "What do YOU want?!",
@@ -24,7 +24,7 @@
     "innerColor": [255, 255,255],
     "favoredReligion": "Protestantism",
     "uniqueName": "Roosevelt Corollary",
-    "uniques": ["[+15]% Strength <when fighting in [Friendly Land] tiles>",
+    "uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>",
       "When declaring friendship, both parties gain a [10]% boost to great person generation"],
     "cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
       "Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
@@ -81,7 +81,7 @@
     "introduction": "I'm so exciting to meeting you, my man, i'm Getúlio Vargas. the leader of Brazil.",
 
     "neutralHello": "Greetings.",
-    "hateHello": "Ah... you...",
+    "hateHello": "Oh, it's you.",
 
     "tradeRequest": "Don't refuse my offer and me will be kind with you.",
 
@@ -122,7 +122,7 @@
     "innerColor": [255, 255, 255],
     "favoredReligion": "Taoism",
     "uniqueName": "Art of War",
-    "uniques": ["[-30]% XP required for promotions <for [Military] units>",
+    "uniques": ["[-33]% XP required for promotions <for [Military] units>",
       "[Great General] is earned [+50]% faster"],
     "cities": ["Xianyang","Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
       "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -162,6 +162,39 @@
       "Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
   },
   {
+	"name": "Greece",
+    "leaderName": "Alexander",
+    "adjective": "Greek"
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Domination",
+    "personality": "Alexander",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "That's no lands to escape. Get out my way!",
+    "attacked": "You think is you better than me?!",
+    "denounced": "Don't be coward, sharp you sword!",
+    "defeated": "B-But i'm the son of Zeus! how this happened?",
+    "introduction": "Good day, foreigner. I am the Alexander, the Great. you're welcome to Macedonia.",
+
+    "neutralHello": "Hail.",
+    "hateHello": "Ah...you...",
+
+    "tradeRequest": "Come here, friend. We need your assists here.",
+
+    "outerColor": [255, 255, 255],
+    "innerColor": [65, 141, 254],
+    "favoredReligion": "Christianity",
+    "uniqueName": "Son of Zeus",
+    "uniques": ["[+15]% Strength <vs cities> <when attacking>",
+		"[+2 Happiness] [in annexed cities]"],
+    "cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+		"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+		"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+		"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis"]
+  },
+  {
 	"name": "Mali",
     "leaderName": "Sundiata",
     "adjective": "Malian",
@@ -188,9 +221,40 @@
     "favoredReligion": "Islam",
     "uniqueName": "Mali Lion",
     "uniques": ["[+1 Gold] from each Trade Route",
-		"[-25]% maintenance costs <for [{Military} {Land}] units>"],
+		"[-50]% maintenance costs <for [{Military} {Land}] units>"],
     "cities": ["Nyeni","Tombouctu","Gao","Djenne","Taghaza","Bamako","Kangaba","Dakadiala","Kiri","Kirina","Walata","Arawan","Tadmekka","Diara","Kumbi Saleh",
 	"Fadama","Koroussa","Narena","Diagassola","Siby","Siguiri","Tabon","Nioro","Kaniana","Kukukya"]
+  },
+  {
+	"name": "Sumer",
+    "leaderName": "Gilgamesh",
+    "adjective": "Sumerian"
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Diplomatic",
+    "personality": "Gilgamesh",
+
+    "startIntroPart1": "",
+    "startIntroPart2": "",
+
+    "declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm",
+    "attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+    "denounced": "We not accept this injustice!",
+    "defeated": "What treachery has struck us? No, what evil?",
+    "introduction": "Hello, friend. The King of Ur are exciting to meeting you. Call me Gilgamesh, the Great.",
+
+    "neutralHello": "Hail.",
+    "hateHello": "Oh, it's you.",
+
+    "tradeRequest": "My goods are in the table for you.",
+
+    "outerColor": [0, 0, 114],
+    "innerColor": [255, 218, 54],
+    "favoredReligion": "Zoroastrianism",
+    "uniqueName": "Epic of Gilgamesh",
+    "uniques": ["[+20]% Strength <when fighting in [{City-State} {Friendly Land}] tiles>",
+		"[-50]% City-State Influence degradation",
+		"City-State territory always counts as friendly territory"],
+    "cities": ["Ur"]
   },
 	// City-States sorted by cityStateType, name
 	{
@@ -398,19 +462,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [51, 97, 242],
 		"cities": ["Sydney"]
-	},
-	{
-		"name": "Ur",
-		"adjective": ["Urian"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
-		"defeated": "What treachery has struck us? No, what evil?",
-		"outerColor": [0, 0, 0],
-		"innerColor": [167, 16, 216],
-		"cities": ["Ur"],
 	},
 	{
 		"name": "Vancouver",
