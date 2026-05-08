@@ -54,11 +54,11 @@
         
     "tradeRequest": "Come forth, let's do business.",
 
-    "outerColor": [39, 217, 33],
-    "innerColor": [255, 249, 95],
+    "outerColor": [32, 157, 28],
+    "innerColor": [255, 250, 143],
     "favoredReligion": "Islam",
     "uniqueName": "Taqwa",
-    "uniques": ["[+100]% [Oil] resource production", "[-25]% Faith cost of generating Great Prophet"],
+    "uniques": ["[+100]% [Oil] resource production", "[-25]% Faith cost of generating Great Prophet equivalents"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
 "Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",            "Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
@@ -121,7 +121,7 @@
 	  "innerColor": [255, 255, 255],
 	  "favoredReligion": "Taoism",
 	  "uniqueName": "Art of War",
-	  "uniques": ["[-33]% XP required for promotions <for [Military] units>",
+	  "uniques": ["[-25]% XP required for promotions <for [Military] units>",
       "[Great General] is earned [+50]% faster"],
 	  "cities": ["Xianyang","Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 		  "Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -249,8 +249,8 @@
 
     "tradeRequest": "I need your support!",
 
-    "outerColor": [131, 91, 79],
-    "innerColor": [75, 32, 42],
+    "outerColor": [143, 107, 96],
+    "innerColor": [69, 30, 39],
     "favoredReligion": "Islam",
     "uniqueName": "Mali Lion",
     "uniques": ["[+1 Gold] from each Trade Route",
@@ -280,8 +280,8 @@
 
 	  "tradeRequest": "All roads lead to Rome.",
 
-	  "outerColor": [254, 234, 102],
-	  "innerColor": [144, 0, 0],
+	  "outerColor": [144, 0, 0],
+	  "innerColor": [254, 234, 102],
 	  "favoredReligion": "Christianity",
 	  "uniqueName": "Pax Romana",
 	  "uniques": ["[+15]% Production when constructing [all] buildings [in all cities connected to capital]",
@@ -335,22 +335,23 @@
 	  "startIntroPart1": "",
 	  "startIntroPart2": "",
     
-	  "declaringWar": "",
+	  "declaringWar": "Now, is impossible to go back.",
 	  "attacked": "You condemned us to this, don't regret it later!",
-	  "denounced": "",
-	  "defeated": "",
-	  "introduction": "",
+	  "denounced": "You're a shame.",
+	  "defeated": "Ruin! Ruin! Istanbul becomes Iram of the Pillars, remembered only by the melancholy poets.",
+	  "introduction": "From the magnificence of Topkapi, the Ottoman nation greets you, stranger! I'm Suleiman, Kayser-I Rum, and I bestow upon you my welcome!",
     
-	  "neutralHello": "",
-	  "hateHello": "",
+	  "neutralHello": "Greetings.",
+	  "hateHello": "What do you want?",
 
-	  "tradeRequest": "",
+	  "tradeRequest": "Let us do business! Would you be interested?",
     
-	  "outerColor": [239, 255, 223],
-	  "innerColor": [132, 176, 88],
+	  "outerColor": [241, 255, 227],
+	  "innerColor": [114, 150, 74],
 	  "favoredReligion": "Islam",
-	  "uniqueName": "",
-	  "uniques": [""],
+	  "uniqueName": "Turkish Bombard",
+	  "uniques": ["[+25]% Production when constructing [Siege] units [in all cities]",
+		  "[+25]% Strength <for [Siege] units> <when defending>"],
 	  "cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 		  "Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 		  "Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar"]
