@@ -41,6 +41,17 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
+		"name": "Nzo Nkinsi",
+		"uniqueTo": "Kongo",
+		"replaces": "Shrine",
+		"faith": 1,
+		"culture": 1,
+		"cost": 40,
+		"maintenance": 0,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	{
 		"name": "Temple of Artemis",
 		"culture": 1,
 		"isWonder": true,
@@ -79,6 +90,17 @@
 		"requiredTech": "Writing"
 	},
 	{
+		"name": "Mud Pyramid Mosque",
+		"uniqueTo": "Mali",
+		"replaces": "Library",
+		"faith": 1,
+		"gold": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
 		"name": "The Great Library",
 		"science": 3,
 		"culture": 1,
@@ -93,6 +115,16 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Toreo",
+		"uniqueTo": "Spain",
+		"replaces": "Circus",
+		"requiredNearbyImprovedResources": ["Bison","Horses"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Gold, +1 Food] from [Bison] tiles [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -279,6 +311,17 @@
 		"requiredTech": "Currency"
 	},
 	{
+		"name": "Bazaar",
+		"uniqueTo": "Arabia",
+		"replaces": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City", "[+1 Gold, +1 Culture] from [Oasis] tiles [in this city]"],
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
 		"name": "Mint",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
@@ -338,6 +381,16 @@
 	// Column 5
 	{
 		"name": "Garden",
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Ziggurat",
+		"uniqueTo": "Sumer",
+		"replaces": "Garden",
+		"percentStatBonus": {"science": 10},
 		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -529,6 +582,19 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Samba School",
+		"uniqueTo": "Brazil",
+		"replaces": "Opera House",
+		"culture": 4,
+		"happiness": 2,
+		"specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 1,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Sistine Chapel",
 		"culture": 1,
 		"isWonder": true,
@@ -543,6 +609,20 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Hanse",
+		"uniqueTo": "Germany",
+		"replaces": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"percentStatBonus": {"production": 5},
+		"cityStrength": 3,
+		"cityHealth": 25,
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
