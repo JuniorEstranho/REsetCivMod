@@ -502,7 +502,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
-		"cost": 120,
+		"cost": 100,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -525,7 +525,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Muskeeter",
+		"name": "Musketeer",
 		"uniqueTo": "France",
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
@@ -548,6 +548,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"promotions": ["[Janissary] ability"],
 		"attackSound": "shot"
 	},
@@ -635,7 +636,7 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Hu dun pao",
+		"name": "Hun dun pao",
 		"uniqueTo": "China",
 		"replaces": "Cannon",
 		"unitType": "Siege",
@@ -912,6 +913,19 @@
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Navy SEAL",
+		"uniqueTo": "America",
+		"replaces": "Marine",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 75,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "Invisible to non-adjacent units <when [Embarked]>", "May attack when embarked"],
 		"attackSound": "shot"
 	},
 	{
