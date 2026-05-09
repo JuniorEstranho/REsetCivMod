@@ -715,7 +715,11 @@
 	},
 	{
 		"name": "Phalanx Formation", //Only for Hoplite and subsequent upgrades
-		"uniques": ["[+50]% to Flank Attack bonuses <when adjacent to a [Phalanx Formation] unit>", "[+50]% Strength <when defending> <vs [Ranged] units> <when adjacent to a [Phalanx Formation] unit>"]
+		"uniques": ["[+50]% to Flank Attack bonuses <when adjacent to a [Melee] unit>", "[+50]% Strength <when defending> <vs [Ranged] units> <when adjacent to a [Melee] unit>"]
+	},
+	{
+		"name": "Open borders", //Only for England Water units and subsequent upgrades
+		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "[Jaguar] ability",
