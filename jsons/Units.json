@@ -163,7 +163,7 @@
 	{
 		"name": "War Chariot",
 		"uniqueTo": "Egypt",
-		"name": "Chariot Archer",
+		"replaces": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 5,
 		"strength": 6,
@@ -251,7 +251,7 @@
 	{
 		"name": "Cataphract",
 		"uniqueTo": "Byzantium",
-		"name": "Horseman",
+		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 16,
