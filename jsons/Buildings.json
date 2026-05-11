@@ -21,6 +21,16 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"],
 	},
+	{
+		"name": "Stele",
+		"uniqueTo": "Ethiopia",
+		"replaces": "Monument",
+		"culture": 2,
+		"science": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+	},
 	// Column 1
 	{
 		"name": "Granary",
@@ -49,7 +59,6 @@
 		"cost": 40,
 		"maintenance": 0,
 		"requiredTech": "Pottery",
-		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Temple of Artemis",
@@ -121,7 +130,7 @@
 		"name": "Toreo",
 		"uniqueTo": "Spain",
 		"replaces": "Circus",
-		"requiredNearbyImprovedResources": ["Bison","Horses"],
+		"requiredNearbyImprovedResources": ["Cattle","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Gold, +1 Food] from [Bison] tiles [in this city]"],
@@ -479,11 +488,12 @@
 	{
 		"name": "Maloca",
 		"uniqueTo": "The Tupi",
-		"name": "Workshop",
-		"maintenance": 0,
+		"replaces": "Workshop",
+		"maintenance": 2,
 		"production": 2,
+		"culture": 2,
 		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
+		"cost": 100,
 		"uniques": ["[+1 Food] from [Forest] tiles [in this city]", "[+1 Food] from [Jungle] tiles [in this city]"],
 		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting"
@@ -642,8 +652,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25},
-		"percentStatBonus": {"production": 5},
+		"percentStatBonus": {"gold": 25, "production": 5},
 		"cityStrength": 3,
 		"cityHealth": 25,
 		"requiredBuilding": "Market",
