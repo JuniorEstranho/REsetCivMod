@@ -120,10 +120,10 @@
 
 		"outerColor": [70, 0, 118],
 		"innerColor": [254, 234, 102],
-		"favoredReligion": "Orthodoxy",
+		"favoredReligion": "Orthodoxism",
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": ["Comment [Receive a [Faith] boost, upon constructing a [Wonder]]",
-			"[+33]% [Faith] [in all cities] <for [15] turns> <upon constructing a [{non-[Palace]} {Wonder}] [in all cities]> <hidden from users>",
+			"[+33]% [Faith] [in all cities] <for [15] turns> <upon constructing [{non-[Palace]} {Wonder}]> <hidden from users>",
 			"[+100]% Natural religion spread [in annexed cities]"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna", "Ohrid","Nicomedia","Trebizond","Cherson", "Sardica",
 			"Ani","Dyrrachium","Edessa", "Chalcedon","Naissus","Bari","Iconium", "Prilep","Samosata", "Kars","Nicopolis", "Theodosiopolis",
