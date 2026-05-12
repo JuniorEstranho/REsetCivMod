@@ -707,7 +707,7 @@
     },
 	{
 		"name": "Imperialism", //Only for Redcoat Army and subsequent upgrades
-		"uniques": ["[+25]% Strength <on foreign continents>"]
+		"uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>", "[+25]% Strength <on foreign continents>"]
 	},
 	{
 		"name": "Double Mobility", //Only for Ship of the Line and subsequent upgrades
@@ -715,7 +715,7 @@
 	},
 	{
 		"name": "Phalanx Formation", //Only for Hoplite and subsequent upgrades
-		"uniques": ["[+50]% to Flank Attack bonuses <when adjacent to a [Melee] unit>", "[+50]% Strength <when defending> <vs [Ranged] units> <when adjacent to a [Melee] unit>"]
+		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Open borders", //Only for England Water units and subsequent upgrades
@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "[Cossack] ability",
-		"uniques": ["[+25]% Strength <when attacking>", "Withdraws before melee combat <with [75]% chance>"]
+		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
@@ -756,15 +756,15 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["Can move after attacking"]
+		"uniques": ["[+100]% Strength <when defending> <with [15]% chance>", "Can move after attacking"]
 	},
 	{
 		"name": "[Zero] ability",
 		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
 	},
 	{
-		"name": "[Chu-Ko-Nu] ability",
-		"uniques": ["[1] additional attacks per turn", "Can move after attacking"]
+		"name": "[Mohawk Warrior] ability",
+		"uniques": ["[+25]% Strength <when attacking>", "[+25]% Strength <when fighting in [Forest] tiles>", "[+25]% Strength <when fighting in [Jungle] tiles>"]
 	},
 	{
 		"name": "[Privateer] ability",
