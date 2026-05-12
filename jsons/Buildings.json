@@ -132,7 +132,7 @@
 		"requiredNearbyImprovedResources": ["Cattle","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold, +1 Food] from [Bison] tiles [in this city]"],
+		"uniques": ["[+1 Gold, +1 Food] from [Cattle] tiles [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
