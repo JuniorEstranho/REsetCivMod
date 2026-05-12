@@ -31,6 +31,21 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Blowgun",
+		"uniqueTo": "The Tupi",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 6,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects","Must set up to ranged attack"],
+		"promotions": ["Ignore terrain cost", "Survivalism I"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -44,6 +59,20 @@
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
+	},
+	{
+		"name": "Jaguar",
+		"uniqueTo": "Aztecs",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"promotions": ["[Jaguar] ability", "Woodsman"],
+		"attackSound": "nonmetalhit",
 	},
 	{
 		"name": "Brute",
@@ -70,6 +99,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Atlatlist",
+		"uniqueTo": "The Maya",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 36,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
@@ -88,19 +131,6 @@
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
-	},
-	{
-		"name": "Ubá Boats",
-		"uniqueTo": "The Tupi",
-		"replaces": "Work Boats",
-		"unitType": "Ranged Water",
-		"movement": 4,
-		"strength": 4,
-		"rangedStrength": 6,
-		"cost": 20,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
