@@ -263,6 +263,40 @@
 			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
 	},
 	{
+		"name": "France",
+		"leaderName": "Napoleon",
+		"adjective": ["Franch"]
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Napoleon",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You're disturbing us, prepare for war.",
+		"attacked": "You've fallen into my trap. I'll bury you.",
+		"denounced": "Nice.",
+		"defeated": "I congratulate you for your victory.",
+		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "France offers you this exceptional proposition.",
+
+		"outerColor": [38, 98, 255],
+		"innerColor": [239, 236, 148],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Grande Armée",
+		"uniques": ["Great General provides double combat bonus",
+			"Comment [[Mounted] units ignores Zone of Control]",
+			"Comment [Enemy Units can't flank your units]"],
+		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
+			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
+			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
+			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
+	},
+	{
 		"name": "Germany",
 		"leaderName": "Friedrich Barbarossa",
 		"adjective": ["German"],
@@ -360,6 +394,38 @@
 			"[+1 Gold] from every [{improved} {Luxury resource}]"],
 		"cities": ["Nyeni","Tombouctu","Gao","Djenne","Taghaza","Bamako","Kangaba","Dakadiala","Kiri","Kirina","Walata","Arawan","Tadmekka","Diara","Kumbi Saleh",
 			"Fadama","Koroussa","Narena","Diagassola","Siby","Siguiri","Tabon","Nioro","Kaniana","Kukukya"]
+	},
+	{
+		"name": "Russia",
+		"leaderName": "Peter I",
+		"adjective": ["Russian"]
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Peter I",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Ignoring your malevolence is impossible now. I'm sorry, but you will be stopped!",
+		"attacked": "Well, if that's is you choice, i can't make this diferent",
+		"denounced": "This is a threat?",
+		"defeated": "Oh, Mother Russia, I failed with our honor. You will pay dearly, soon.",
+		"introduction": "Hi! Welcome to Russia. I wishes goods for us.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "I believe we need to join forces for progress.",
+
+		"outerColor": [249, 219, 0],
+		"innerColor": [16, 16, 16],
+		"favoredReligion": "Orthodoxy",
+		"uniqueName": "Son of Mother Russia",
+		"uniques": ["Gain control over [6] tiles [in this city] <upon founding a city>"],
+		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
+			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
+			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk",
+			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm"]
 	},
 	{
 		"name": "The Maya",
