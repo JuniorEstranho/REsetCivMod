@@ -53,7 +53,21 @@ NationIcons/Sumer
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nzo
+NationIcons/The Tupi
+  rotate: false
+  xy: 800, 0
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Byzantium
+  rotate: false
+  xy: 800, 600
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nzo Nkinsi
   rotate: false
   xy: 0, 400
   size: 200, 200
@@ -70,6 +84,20 @@ BuildingIcons/Samba School
 BuildingIcons/Hanse
   rotate: false
   xy: 600, 200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Toreo
+  rotate: false
+  xy: 1000, 600
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sphinx
+  rotate: false
+  xy: 800, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -144,6 +172,41 @@ UnitIcons/U-boat
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Blowgunner
+  rotate: false
+  xy: 800, 200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Barbary Corsair
+  rotate: false
+  xy: 1000, 0
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Navy SEAL
+  rotate: false
+  xy: 1000, 200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bazooka
+  rotate: false
+  xy: 1000, 400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Templar Knight
+  rotate: false
+  xy: 1000, 1000
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Chateau
   rotate: false
   xy: 600, 400
@@ -151,7 +214,28 @@ ImprovementIcons/Chateau
   orig: 100, 100
   offset: 0, 0
   index: -1
-ReligionIcons/Orthodoxism
+ImprovementIcons/Maloca
+  rotate: false
+  xy: 800, 400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PromotionIcons/Imperialism
+  rotate: false
+  xy: 1000, 800
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PromotionIcons/Open borders
+  rotate: false
+  xy: 800, 100
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Orthodoxy
   rotate: false
   xy: 600, 600
   size: 200, 200
