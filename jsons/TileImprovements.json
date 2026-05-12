@@ -262,6 +262,7 @@
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
 		"food": 1,
+		"production": 1,
 		"uniques": ["Gives a defensive bonus of [50]%",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"[+1 Food] from [Fresh Water] tiles",
