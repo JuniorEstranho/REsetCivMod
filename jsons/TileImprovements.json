@@ -241,6 +241,36 @@
 		]
 	},
 	//Civilization unique improvements
+	{
+		"name": "Chateau",
+		"uniqueTo": "France",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra"],
+		"turnsToBuild": 9,
+		"techRequired": "Chivalry",
+		"culture": 2,
+		"uniques": ["Gives a defensive bonus of [50]%",
+			"[+1 Culture] for each adjacent [Luxury resource]",
+			"[+1 Culture] <after discovering [Steam Power]>",
+			"Removes removable features when built",
+			"Unavailable <within [2] tiles of a [Chateau]> <hidden from users>",
+			"Pillaging this improvement yields approximately [+18 Gold]"]
+	},
+	{
+		"name": "Maloca",
+		"uniqueTo": "The Tupi",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"food": 1,
+		"uniques": ["Gives a defensive bonus of [50]%",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"[+1 Food] from [Fresh Water] tiles",
+			"[+2 Culture] <after discovering [Ecology]>",
+			"Can be built outside your borders",
+			"Destroyed when pillaged",
+			"Pillaging this improvement yields approximately [+12 Gold]"]
+	},
+		
 	// Unbuildable improvements
 	{
 		"name": "Ancient ruins",
