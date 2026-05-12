@@ -362,7 +362,7 @@
 			"Fadama","Koroussa","Narena","Diagassola","Siby","Siguiri","Tabon","Nioro","Kaniana","Kukukya"]
 	},
 	{
-		"name": "Maya",
+		"name": "The Maya",
 		"leaderName": "Pacal",
 		"adjective": ["Mayan"],
 		"startBias": ["Jungle"],
@@ -516,7 +516,7 @@
 		"outerColor": [23,132,18],
 		"innerColor": [76,43,21],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Pindorama",
+		"uniqueName": "The Great Pindorama",
 		"uniques": ["No Maintenance costs for improvements in [Forest] tiles",
 			"No Maintenance costs for improvements in [Jungle] tiles",
 			"[-50]% maintenance costs <for [Archery] units>"],
