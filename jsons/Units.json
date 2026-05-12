@@ -31,17 +31,17 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Blowgun",
+		"name": "Blowgunner",
 		"uniqueTo": "The Tupi",
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
 		"strength": 4,
-		"rangedStrength": 6,
+		"rangedStrength": 5,
 		"cost": 25,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects","Must set up to ranged attack"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"promotions": ["Ignore terrain cost", "Survivalism I"],
 		"attackSound": "arrow"
 	},
@@ -368,6 +368,21 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Mohawk Warrior",
+		"uniqueTo": "Iroquois",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 65,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
 	{
