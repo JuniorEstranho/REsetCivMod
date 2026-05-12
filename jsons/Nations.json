@@ -2,7 +2,7 @@
 	{
 		"name": "America",
 		"leaderName": "Theodore Roosevelt",
-		"adjective": "American"
+		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Theodore Roosevelt",
 
@@ -65,9 +65,42 @@
 			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"]
 	},
 	{
+		"name": "Aztecs",
+		"leaderName": "Montezuma I",
+		"adjective": ["Aztecs"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Montezuma I",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
+		"attacked": "Yes! more blood to the altar, the Huitzilopochtli will be happy with it. I will go!",
+		"denounced": "You will suffer, soon!",
+		"defeated": "Oh, Huitzilopochtli. forgiven me for my weakness. I'm not so strong to be your follower.",
+		"introduction": "How are you? a sacrifice or a friend?",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Ahh... you...",
+
+		"tradeRequest": "Accept this agreement or suffer the consequences.",
+
+		"outerColor": [139, 32, 23],
+		"innerColor": [134, 238, 214],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Sacrificial Captives",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
+		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"]
+	},
+	{
 		"name": "Brazil",
 		"leaderName": "Getúlio Vargas",
-		"adjective": "Brazilian"
+		"adjective": ["Brazilian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
 		"personality": "Getúlio Vargas",
@@ -99,7 +132,7 @@
 	{
 		"name": "Byzantium",
 		"leaderName": "Basil II",
-		"adjective": "Byzantine"
+		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Basil II",
@@ -120,7 +153,7 @@
 
 		"outerColor": [70, 0, 118],
 		"innerColor": [254, 234, 102],
-		"favoredReligion": "Orthodoxism",
+		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Patriarchate of Constantinople",
 		"uniques": ["Comment [Receive a [Faith] boost, upon constructing a [Wonder]]",
 			"[+33]% [Faith] [in all cities] <for [15] turns> <upon constructing [{non-[Palace]} {Wonder}]> <hidden from users>",
@@ -133,7 +166,7 @@
 	{
 		"name": "China",
 		"leaderName": "Qin Shin Huang",
-		"adjective": "Chinese"
+		"adjective": ["Chinese"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		"personality": "Qin Shin Huang",
@@ -166,7 +199,7 @@
 	{
 		"name": "Egypt",
 		"leaderName": "Cleopatra",
-		"adjective": "Egyptian"
+		"adjective": ["Egyptian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Cleopatra",
@@ -199,7 +232,7 @@
 	{
 		"name": "England",
 		"leaderName": "Victoria",
-		"adjective": "English"
+		"adjective": ["English"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Victoria",
@@ -232,7 +265,7 @@
 	{
 		"name": "Germany",
 		"leaderName": "Friedrich Barbarossa",
-		"adjective": "German"
+		"adjective": ["German"],
 		"preferredVictoryType": "Scientific",
 		"personality": "Friedrich Barbarossa",
 
@@ -266,7 +299,7 @@
 	{
 		"name": "Greece",
 		"leaderName": "Alexander",
-		"adjective": "Greek"
+		"adjective": ["Greek"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Alexander",
@@ -300,7 +333,7 @@
 	{
 		"name": "Mali",
 		"leaderName": "Sundiata",
-		"adjective": "Malian",
+		"adjective": ["Malian"],
 		"startBias": ["Avoid [Forest]", "Avoid [Jungle]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Sundiata",
@@ -329,9 +362,42 @@
 			"Fadama","Koroussa","Narena","Diagassola","Siby","Siguiri","Tabon","Nioro","Kaniana","Kukukya"]
 	},
 	{
+		"name": "Maya",
+		"leaderName": "Pacal",
+		"adjective": ["Mayan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Pacal",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Peace is for the weaks!",
+		"attacked": "Muahahahahahaha!",
+		"denounced": "I should destroy you because this? well.",
+		"defeated": "Well... This isn't in my calculation. The calendar don't tell anything about this!",
+		"introduction": "Greetings, wayward one. I am known as Pacal.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "I being generous, come on, accept it.",
+
+		"outerColor": [198, 141, 99],
+		"innerColor": [24, 63, 66],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+		"cities": ["Palenque","Tikal","Chichen Itza","Uxmal","Tulum","Copan","Coba","El Mirador","Calakmul",
+			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
+			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
+			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"]
+	},
+	{
 		"name": "Rome",
 		"leaderName": "Trajan",
-		"adjective": "Roman",
+		"adjective": ["Roman"],
 		"startBias": ["Avoid [Tundra]", "Avoid [Snow]"],
 		"preferredVictoryType": "Domination",
 		"personality": "Trajan",
@@ -363,7 +429,7 @@
 	{
 		"name": "Sumer",
 		"leaderName": "Gilgamesh",
-		"adjective": "Sumerian",
+		"adjective": ["Sumerian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Gilgamesh",
@@ -396,7 +462,7 @@
 	{
 		"name": "The Ottomans",
 		"leaderName": "Suleiman I",
-		"adjective": "Ottoman"
+		"adjective": ["Ottoman"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"personality": "Suleiman I",
@@ -424,7 +490,39 @@
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
 			"Bodrum","Eregli","Silifke","Sivas","Amasya","Marmaris","Trabzon","Erzurum","Urfa","Izmit","Afyonkarahisar"]
-  },
+	},
+	{
+		"name": "The Tupi",
+		"leaderName": "Cunhambebe",
+		"adjective": ["Tupiniquim"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Cunhambebe",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "If you bother my tribe, you mess with me!",
+		"attacked": "This will not happen with my people!",
+		"denounced": "You definitely need a lesson.",
+		"defeated": "Monster! I curse you, i curse all your generation line!",
+		"introduction": "Greetings, warrior. I am Cunhambebe, Tamoios leader. You come here for good or evil?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?",
+
+		"tradeRequest": "I've heard rumors that you're a great negotiator. Want to prove it to me?",
+
+		"outerColor": [23,132,18],
+		"innerColor": [76,43,21],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Pindorama",
+		"uniques": ["No Maintenance costs for improvements in [Forest] tiles",
+			"No Maintenance costs for improvements in [Jungle] tiles",
+			"[-50]% maintenance costs <for [Archery] units>"],
+		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz","Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma",
+			"Awetí","Mondé","Tuparí"]
+	},
 	// City-States sorted by cityStateType, name
 	{
 		"name": "Brussels",
