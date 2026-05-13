@@ -145,6 +145,17 @@
 		"requiredTech": "The Wheel"
 	},
 	{
+		"name": "Floating Gardens",
+		"uniqueTo": "Aztecs",
+		"replaces": "Water Mill",
+		"maintenance": 1,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"food": 15},
+		"uniques": ["Must be on [Fresh Water]", "[+2 Food] from [Lakes] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+	{
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -441,7 +452,7 @@
 		"name": "Painted Monastery",
 		"uniqueTo": "Romania",
 		"replaces": "Garden",
-		"culture": 3,
+		"culture": 2,
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
