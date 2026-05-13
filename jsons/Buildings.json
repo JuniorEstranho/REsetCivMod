@@ -179,6 +179,16 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
+		"name": "Krepost",
+		"uniqueTo": "Russia",
+		"replaces": "Barracks",
+		"production": 1,
+		"cost": 75,
+		"maintenance": 0,
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
@@ -428,6 +438,16 @@
 		"requiredTech": "Theology"
 	},
 	{
+		"name": "Painted Monastery",
+		"uniqueTo": "Romania",
+		"replaces": "Garden",
+		"culture": 3,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
 		"name": "Hagia Sophia",
 		"faith": 3,
 		"greatPersonPoints": {"Great Artist": 1},
@@ -628,7 +648,7 @@
 		"uniqueTo": "Brazil",
 		"replaces": "Opera House",
 		"culture": 4,
-		"happiness": 2,
+		"happiness": 3,
 		"specialistSlots": {"Artist": 2},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Amphitheater",
