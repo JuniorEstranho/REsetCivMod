@@ -161,7 +161,7 @@
 		"promotions": ["Boarding Party I"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Galley",
@@ -460,7 +460,7 @@
 		"replaces": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 23,
+		"strength": 22,
 		"cost": 100,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -520,6 +520,22 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Conquistador",
+		"uniqueTo": "Spain",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Founds a new puppet city <on foreign continents>"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
 	},
 	{
 		"name": "Crossbowman",
@@ -795,6 +811,38 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Rosiori",
+		"uniqueTo": "Romania",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Shock I"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Cossack",
+		"uniqueTo": "Russia",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
 		"attackSound": "cavalry"
 	},
 	{
