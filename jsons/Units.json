@@ -42,7 +42,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
-		"promotions": ["Ignore terrain cost", "Survivalism I"],
+		"promotions": ["Ignore terrain cost", "Quick Study"],
 		"attackSound": "arrow"
 	},
 	{
@@ -291,7 +291,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Cover I"],
+		"promotions": ["Great Generals I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -368,6 +368,23 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Shieldman",
+		"uniqueTo": "Kongo",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>", "Can see over obstacles"],
+		"promotions": ["Cover I","Woodsman"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -584,10 +601,10 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
-		"uniques": ["Can instantly construct a [Fishing boats] improvement"],
-		"promotions": ["Shock I","Great Generals II"],
+		"uniques": ["Can instantly construct a [Fishing Boats] improvement"],
+		"promotions": ["Shock I","Bushido"],
 		"attackSound": "metalhit"
 	},
 
@@ -603,6 +620,22 @@
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Nau",
+		"uniqueTo": "Portugal",
+		"replaces": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 135,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"promotions": ["Landing Party"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -1075,11 +1108,11 @@
 		"replaces": "Marine",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 75,
-		"cost": 400,
+		"strength": 78,
+		"cost": 450,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "Invisible to non-adjacent units <when [Embarked]>", "May attack when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "May attack when embarked"],
 		"attackSound": "shot"
 	},
 	{
