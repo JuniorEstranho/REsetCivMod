@@ -228,7 +228,9 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Sacred River",
 		"uniques": ["[+2 Happiness] in cities on [River] tiles",
-			"[+100]% Yield from every [Improvement] <in [River] tiles> <during a Golden Age>",
+			"Comment [Every tile in [River] (or [Fresh Water]) yields [+100]% during a Golden Age]",
+			"[+100]% Yield from every [{non-[Road]} {non-[Railroad]} {Improvement}] <in [Fresh Water] tiles> <during a Golden Age> <hidden from users>",
+			"[+100]% Yield from every [{non-[City center]} {Land}] tiles <in [Fresh Water] tiles <during a Golden Age> <hidden from users>",
 			"[{Military} {Land}] units gain the [Amphibious] promotion"],
 		"cities": ["Alexandria","Thebes","Memphis","Heliopolis","Elephantine","Pi-Ramesses","Giza","Byblos","Akhetaten",
 			"Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
@@ -262,8 +264,9 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Protestantism",
 		"uniqueName": "Sun Never Sets",
-		"uniques": ["[Water] units gain the [Open borders] promotion",
-			"[+50]% Golden Age length"],
+		"uniques": ["[+50]% Golden Age length",
+			"[Water] units gain the [Open borders] promotion",
+			"[+2] Movement <for [Water] units>"],
 		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
 			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
 			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
@@ -296,8 +299,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Grande Armée",
 		"uniques": ["Great General provides double combat bonus",
-			"Comment [[Mounted] units ignores Zone of Control]",
-			"Comment [Enemy Units can't flank your units]"],
+			"Comment [Enemy Units can't flank your units]",
+			"Gain an extra spy <upon entering the [Renaissance era]>"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
@@ -373,6 +376,72 @@
 			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis"]
 	},
 	{
+		"name": "Japan",
+		"leaderName": "Tokugawa Ieyasu",
+		"adjective": ["Japanese"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Tokugawa Ieyasu",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I'll don't wait for your first attack!",
+		"attacked": "You're joking, right?",
+		"denounced": "You are waste of time.",
+		"defeated": "It wasn't supposed to end like this.",
+		"introduction": "New neighbors? Oh, Hello. Sit here, We're talking about you.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "I heard you're have some richness in your lands, you can share with me?",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [235,0,0],
+		"favoredReligion": "Shinto",
+		"uniqueName": "Nippon Landscapes",
+		"uniques": ["[+1 Culture, +1 Faith] from every [Mountain]",
+			"[+2 Culture] from every [Atol]",
+			"[+100]% Yield from every [Natural Wonder]"],
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
+	},
+	{
+		"name": "Kongo",
+		"leaderName": "Mvemba a Nzinga",
+		"adjective": ["Kongolese"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Mvemba a Nzinga",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I decided, your reign is unholy, we don't need your unfaith mind in this world.",
+		"attacked": "You? attacking me? Well, now is impossible to forgive it!",
+		"denounced": "May the heavens grant me patience.",
+		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
+		"introduction": "Good day, my friend. You're come here to share your enlightening?",
+
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "The Kongo Kingdom will cover all costs of this agreement.",
+
+		"outerColor": [238, 232, 30],
+		"innerColor": [234, 0, 68],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Foreign Missionaries",
+		"uniques": ["[+2 Culture] from each Trade Route",
+			"[Faith] cost of purchasing [Missionary] units [-40]%",
+			"[+2] Movement <for [Religious Unit] units>"],
+		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
+			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
+	},
+	{
 		"name": "Mali",
 		"leaderName": "Sundiata",
 		"adjective": ["Malian"],
@@ -404,6 +473,37 @@
 			"Fadama","Koroussa","Narena","Diagassola","Siby","Siguiri","Tabon","Nioro","Kaniana","Kukukya"]
 	},
 	{
+		"name": "Portugal",
+		"leaderName": "João III",
+		"adjective": ["Portuguese"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "João III",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"denounced": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [0,0,186],
+		"favoredReligion": "",
+		"uniqueName": "Mare Clausum",
+		"uniques": ["Will not be chosen for new games", "Excluded from map editor"],
+		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
+			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
+			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
+	},
+	{
 		"name": "Russia",
 		"leaderName": "Peter I",
 		"adjective": ["Russian"]
@@ -429,7 +529,7 @@
 		"innerColor": [16, 16, 16],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Son of Mother Russia",
-		"uniques": ["Gain control over [6] tiles [in this city] <upon founding a city>"],
+		"uniques": ["Gain control over [5] tiles [in this city] <upon founding a city>"],
 		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
 			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
 			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk",
@@ -560,7 +660,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Turkish Bombard",
 		"uniques": ["[+25]% Production when constructing [Siege] units [in all cities]",
-		  "[+25]% Strength <for [Siege] units> <when defending>",
+			"[+25]% Strength <for [Siege] units> <when defending>",
 			"[+50]% XP gained from combat <for [Siege] units>"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
@@ -593,8 +693,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Great Pindorama",
 		"uniques": ["[-50]% maintenance costs <for [Archery] units>",
-			"[+15]% Production when constructing [Archery] units [in all cities]",
-			"No Maintenance costs for improvements in [Forest] tiles",
+			"[+25]% Production when constructing [Archery] units [in all cities]",
 			"No Maintenance costs for improvements in [Jungle] tiles",],
 		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz","Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma",
 			"Awetí","Mondé","Tuparí"]
@@ -1014,19 +1113,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [167, 162, 216],
 		"cities": ["Hanoi"]
-	},
-	{
-		"name": "M'Banza-Kongo", //I'll turn it in civ!
-		"adjective": ["Angolan"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to Kongo - not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
-		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [18, 188, 221],
-		"cities": ["M'Banza-Kongo"],
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"]
 	},
 	{
 		"name": "Sidon",
