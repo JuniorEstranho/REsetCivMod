@@ -169,6 +169,42 @@
 			"Patra","Korinthos"]
 	},
 	{
+		"name": "Carthage",
+		"leaderName": "Dido",
+		"adjective": ["Carthaginian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Dido",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Tell me, do you all know how numerous my armies, elephants and the gdadons are? No? Today, you shall find out!",
+		"attacked": "You are condemning your own people by doing this! Don't cry after all!",
+		"denounced": "I waited more from you.",
+		"defeated": "The fates became to hate me. This is it? You wouldn't destroy us so without their help.",
+		"introduction": "The Phoenicians welcome you to this most pleasant kingdom. I am Dido, the queen of Carthage and all that belongs to it.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What is it now?",
+
+		"tradeRequest": "I just had the marvelous idea, and I think you'll appreciate it too.",
+
+		"outerColor": [205, 205, 205],
+		"innerColor": [81, 0, 137],
+		"favoredReligion": "Islam",
+		"uniqueName": "Phoenician Heritage",
+		"uniques": ["[1] Movement point cost to embark",
+			"[+100]% Strength <when [Embarked]>",
+			"Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"Comment [Units ending their turn on [Mountain] tiles take [50] damage]"
+			],
+		"cities": ["Carthage","Utique","Hippo Regius","Gades","Saguntum","Carthago Nova","Panormus","Lilybaeum","Hadrumetum","Zama Regia",
+			"Karalis","Malaca","Leptis Magna","Hippo Diarrhytus","Motya","Sulci","Leptis Parva","Tharros","Soluntum","Lixus",
+			"Oea","Theveste","Ibossim","Thapsus","Aleria","Tingis","Abyla","Sabratha","Rusadir","Baecula",
+			"Saldae"]
+	},
+	{
 		"name": "China",
 		"leaderName": "Qin Shin Huang",
 		"adjective": ["Chinese"],
@@ -194,7 +230,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Taoism",
 		"uniqueName": "Art of War",
-		"uniques": ["[-25]% XP required for promotions <for [Military] units>",
+		"uniques": ["[-30]% XP required for promotions <for [Military] units>",
 			"[Great General] is earned [+50]% faster"],
 		"cities": ["Xianyang","Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -483,22 +519,24 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "",
-		"attacked": "",
-		"denounced": "",
-		"defeated": "",
-		"introduction": "",
+		"declaringWar": "I just will do this for the good people, unlike you!",
+		"attacked": "We will not surrender!",
+		"denounced": "Turbulent seas are coming for you.",
+		"defeated": "Well, if only there were still a colony for our women and children escape to.",
+		"introduction": "Good day, i'm João III from Portugal. You are welcome to the lusitanian seas.",
 
-		"neutralHello": "",
-		"hateHello": "",
+		"neutralHello": "Good day.",
+		"hateHello": "It's you.",
 
-		"tradeRequest": "",
+		"tradeRequest": "The Portuguese crown needs you presence in this agreement.",
 
 		"outerColor": [255, 255, 255],
-		"innerColor": [0,0,186],
-		"favoredReligion": "",
-		"uniqueName": "Mare Clausum",
-		"uniques": ["Will not be chosen for new games", "Excluded from map editor"],
+		"innerColor": [0, 51, 153],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Beyond the Sea",
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]",
+			"[Great Admiral] is earned [50]% faster",
+			"Gain [70] Influence with a [Great Admiral] gift to a City-State"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
 			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego"]
