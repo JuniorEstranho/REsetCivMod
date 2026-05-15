@@ -11,8 +11,7 @@
         "[-1] Sight <for [Embarked] units>",
     ],
     "unitUniques": ["[-100]% to Flank Attack bonuses <vs [France] units>",
-        "Ignores Zone of Control <for [Mounted] units> <for [France] Civilizations>"
-    ], 
+        "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] units>"], 
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
