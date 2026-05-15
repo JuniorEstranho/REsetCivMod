@@ -469,7 +469,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Mercenary Unit", "No defensive terrain bonus", "[-100]% maintenance costs <hidden from users>", "Only available <after adopting [Protectionism]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Mercenary Unit", "No defensive terrain bonus", "[-100]% maintenance costs <hidden from users>", "Only available <after adopting [Mercenary Army]>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -984,7 +984,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Mercenary Unit", "Can move immediately once bought", "No defensive terrain bonus", "[-100]% maintenance costs <hidden from users>", "Show while unbuildable <hidden from users>", "Only Available <after adopting [Protectionism]>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Mercenary Unit", "Can move immediately once bought", "No defensive terrain bonus", "[-100]% maintenance costs <hidden from users>", "Show while unbuildable <hidden from users>", "Only available <after adopting [Volunteer Army]>"],
 		"attackSound": "shot"
 	},
 	{
