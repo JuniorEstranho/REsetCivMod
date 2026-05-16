@@ -42,7 +42,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
-		"promotions": ["Ignore terrain cost", "Quick Study"],
+		"promotions": ["Ignore terrain cost", "Survivalism I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -96,6 +96,21 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Slinger",
+		"uniqueTo": "Inca",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 4,
+		"rangedStrength": 7,
+		"cost": 36,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1079,6 +1094,20 @@
 		// Does not actually upgrade to Missile Cruisers
 	},
 	{
+		"name": "Yamato",
+		"uniqueTo": "Japan",
+		"replaces": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 65,
+		"range": 4,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Machine Gun",
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
@@ -1251,15 +1280,15 @@
 		"attackSound": "artillery"
 	},
 	{
-    "name": "Bazooka",
-    "unitType": "Gunpowder",
-    "movement": 2,
-    "range": 1,
-    "strength": 85,
-    "rangedStrength": 85,
-    "cost": 375,
-    "requiredTech": "Nuclear Fission",
-    "attackSound": "tankshot"
+		"name": "Bazooka",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"range": 1,
+		"strength": 85,
+		"rangedStrength": 85,
+		"cost": 375,
+		"requiredTech": "Nuclear Fission",
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Mobile SAM",
