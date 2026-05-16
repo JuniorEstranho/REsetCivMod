@@ -702,7 +702,8 @@
 		"uniqueName": "Dragon of Wallachia",
 		"uniques": ["[+25]% Health from pillaging tiles",
 			"Cities are razed [2] times as fast",
-			"Enemy units don't have defensive terrain bonus in your territory and lose health from every turn if they continues in your territory."],
+			"Comment [Enemy units don't have defensive terrain bonus in your territory.]",
+			"Comment [Enemy units heal [-50]% less by pillaging your tiles.]"],
 		"cities": ["Bucharest","Tirgoviste","Cluj-Napoca","Iasi","Constanta","Timisoara","Caralasi","Slobozia","Giurgiu","Pitesti","Slatina","Braila","Tulcea","Galati","Focsani","Sfontu",
 		"Gheorgha","Brasov","Romnicu Volcea","Craiova","Sibui","Miercurea","Bacau","Vaslui","Botosani","Suceava","Oradea","Zalau","Arad","Torgu Mures"]
 	},
@@ -1443,7 +1444,7 @@
 	},
 	{/// Spectator
 		"name": "Spectator",
-		//"outerColor": [255, 255, 255],
+		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 	},
 	{/// Barbarians
