@@ -730,6 +730,10 @@
 		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
+		"name": "Slinger Withdraw", //Only for Slinger units and subsequent upgrades
+		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
+	},
+	{
 		"name": "Open borders", //Only for England Water units and subsequent upgrades
 		"uniques": ["May enter foreign tiles without open borders"]
 	},
@@ -768,7 +772,7 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["[+100]% Strength <when defending> <with [15]% chance>", "Can move after attacking"]
+		"uniques": ["Can move after attacking"]
 	},
 	{
 		"name": "[Zero] ability",
