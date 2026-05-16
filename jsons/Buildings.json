@@ -561,7 +561,7 @@
 	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
-		"name": "Harbor",
+		"replaces": "Harbor",
 		"cost": 120,
 		"gold": 2,
 		"production": 1,
