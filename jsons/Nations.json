@@ -411,6 +411,72 @@
 			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis"]
 	},
 	{
+		"name": "Inca",
+		"leaderName": "Pachacuti",
+		"adjective": ["Incan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Pachacuti",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
+		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
+		"denounced": "What? what you think be are?!",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
+		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
+
+		"neutralHello": "How are you doing?",
+		"hateHello": "What do you want now?",
+
+		"tradeRequest": "The Incan people offer this fair trade.",
+
+		"outerColor": [255, 184, 33],
+		"innerColor": [3, 115, 86],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Great Andean Road",
+		"uniques": ["Can build [Road] improvements at a [+50]% rate",
+			"Units ignore terrain costs when moving into any tile with Hills",
+			"No Maintenance costs for improvements in [Hill] tiles"],
+		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
+			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
+			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
+			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"]
+	},
+	{
+		"name": "Iroquois",
+		"leaderName": "Hiawatha",
+		"adjective": ["Iroquo"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Hiawatha",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
+		"attacked": "You evil creature! My braves will slaughter you!",
+		"denounced": "Go back to the shadows, you fool.",
+		"defeated": "You have defeated us... but our spirits will never be vanquished! We shall return!",
+		"introduction": "Greetings, stranger. I am Hiawatha, speaker for the Iroquois. We seek peace with all, but we do not shrink from war.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "Does this trade work for you, my friend?",
+
+		"outerColor": [54, 72, 72],
+		"innerColor": [246, 205, 137],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "The Great Warpath",
+		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"]
+	},
+	{
 		"name": "Japan",
 		"leaderName": "Tokugawa Ieyasu",
 		"adjective": ["Japanese"],
@@ -471,9 +537,9 @@
 		"innerColor": [234, 0, 68],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Foreign Missionaries",
-		"uniques": ["[+2 Culture] from each Trade Route",
-			"[Faith] cost of purchasing [Missionary] units [-40]%",
-			"[+2] Movement <for [Religious Unit] units>"],
+		"uniques": ["[Faith] cost of purchasing [Missionary] units [-40]%",
+			"[+2] Movement <for [Religious Unit] units>",
+			"[+2 Culture] from each Trade Route"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
 	},
@@ -608,7 +674,7 @@
 	{
 		"name": "Spain",
 		"leaderName": "Philip II",
-		"adjective": ["Spainish"]
+		"adjective": ["Spainish"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Philip II",
@@ -630,8 +696,10 @@
 		"outerColor": [84, 26, 26],
 		"innerColor": [255, 168, 168],
 		"favoredReligion": "Christianity",
-		"uniqueName": "Seven Cities of Gold",
-		"uniques": [""],
+		"uniqueName": "New World Richness",
+		"uniques": ["[+30]% [Gold] [in all cities] <on foreign continents>", 
+			"Free [Settler] appears <upon discovering a Natural Wonder>",
+			"[+2] Movement <for [Settler] units> <when [Embarked]>"],
 		"cities": ["Madrid","Barcelona","Seville","Cordoba","Toledo","Santiago","Salamanca","Murcia","Valencia","Zaragoza","Pamplona",
 			"Vitoria","Santander","Oviedo","Jaen","Logroño","Valladolid","Palma","Teruel","Almeria","Leon","Zamora","Mida",
 			"Lugo","Alicante","Càdiz","Eiche","Alcorcon","Burgos","Vigo","Badajoz","La Coruña","Guadalquivir","Bilbao",
