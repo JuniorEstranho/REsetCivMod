@@ -277,6 +277,21 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Persian Immortal",
+		"uniqueTo": "Persia",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["[Persian Immortal] ability","Cover I"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Marauder",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -336,6 +351,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ,"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"promotions": ["Shock I","Great Generals I"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -428,7 +444,7 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>", "Can see over obstacles"],
-		"promotions": ["Cover I","Woodsman"],
+		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -484,7 +500,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Mercenary Unit", "No defensive terrain bonus", "[-100]% maintenance costs <hidden from users>", "Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Mercenary Unit", "Can only heal by pillaging", "Only available <after adopting [Mercenary Army]>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -678,7 +694,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Can move after attacking"],
 		"promotions": ["Landing Party"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
@@ -772,7 +788,7 @@
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"uniques": ["[+50]% Strength <vs [Land] units> <when attacking>"],
+		"uniques": ["[+100]% Strength <vs [Land] units> <when attacking>"],
 		"promotions": ["Coastal Raider I", "[Privateer] ability", "Landing Party"],
 		"attackSound": "cannon"
 	},
