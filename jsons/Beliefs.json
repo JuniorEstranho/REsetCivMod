@@ -19,13 +19,11 @@
         "name": "Faith Healers",
         "type": "Pantheon",
         "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
-        // This should be worded better
     },
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
         "uniques": ["[+10]% growth [in this city]"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
         "name": "God of Craftsman",
@@ -113,6 +111,22 @@
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Quarry]"]
     },
+    {
+        "name": "Earth Mother",
+        "uniques": ["[+1 Faith] from every [Copper]", "[+1 Faith] from every [Iron]", "[+1 Faith] from every [Salt]"]
+    },
+    {
+        "name": "God-King",
+        "uniques": ["[+1 Faith, +1 Culture, +1 Food, +1 Science, +1 Gold] from every [Palace]"]
+    },
+    {
+        "name": "Sun God",
+        "uniques": ["[+1 Food] from every [Bananas]", "[+1 Food] from every [Citrus]", "[+1 Food] from every [Wheat]"]
+    },
+    {
+        "name": "Tears of the Gods",
+        "uniques": ["[+2 Faith] from every [Gems]", "[+2 Faith] from every [Pearls]"]
+    },
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
         "name": "Asceticism",
@@ -187,7 +201,7 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+        "uniques": ["[+1]% [Production] from every follower, up to [10]%"]
     },
     {
         "name": "Swords into Ploughshares",
@@ -249,8 +263,7 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
-        // ToDo: Should only be friendly territory of cities that follow this religion
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
     },
     {
         "name": "Holy Order",
@@ -265,8 +278,7 @@
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
-        // ToDo: Should only be enemy territory of cities that follow this religion
+        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
     },
     {
         "name": "Messiah",
@@ -281,7 +293,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+        "uniques": ["[+25]% Natural religion spread [in all cities]", "[+25]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
     },
     {
         "name": "Religious Unity",
@@ -293,6 +305,6 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-        "uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
+        "uniques": ["Gain [60] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
     }
 ]
