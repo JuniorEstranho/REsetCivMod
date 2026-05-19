@@ -25,7 +25,7 @@ NationIcons/Brazil
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Mali
+NationIcons/Dahomey
   rotate: false
   xy: 600, 0
   size: 200, 200
@@ -60,9 +60,30 @@ NationIcons/The Tupi
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Portugal
+  rotate: false
+  xy: 1200, 0
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Byzantium
   rotate: false
   xy: 800, 600
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Spain
+  rotate: false
+  xy: 1000, 600
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Romania
+  rotate: false
+  xy: 0, 1200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -88,9 +109,9 @@ BuildingIcons/Hanse
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Toreo
+BuildingIcons/Painted Monastery
   rotate: false
-  xy: 1000, 600
+  xy: 400, 1200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -165,6 +186,13 @@ UnitIcons/Janissary
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Rosiori
+  rotate: false
+  xy: 200, 1200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/U-boat
   rotate: false
   xy: 400, 1000
@@ -207,6 +235,20 @@ UnitIcons/Templar Knight
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Guerrilla
+  rotate: false
+  xy: 1200, 1000
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Agojie
+  rotate: false
+  xy: 1000, 800
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Chateau
   rotate: false
   xy: 600, 400
@@ -221,16 +263,51 @@ ImprovementIcons/Maloca
   orig: 100, 100
   offset: 0, 0
   index: -1
-PromotionIcons/Imperialism
+ImprovementIcons/Feitoria
+  rotate: false
+  xy: 1200, 400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Imperialism
   rotate: false
   xy: 1000, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
-PromotionIcons/Open borders
+UnitPromotionIcons/Open borders
   rotate: false
   xy: 800, 100
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Wagon Trains
+  rotate: false
+  xy: 600, 1200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Entrepeneurship
+  rotate: false
+  xy: 800, 1200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Volunteer Army
+  rotate: false
+  xy: 1000, 1200
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Mercenary Army
+  rotate: false
+  xy: 1200, 1200
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
