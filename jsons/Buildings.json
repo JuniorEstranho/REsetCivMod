@@ -100,7 +100,7 @@
 	},
 	{
 		"name": "Mud Pyramid Mosque",
-		"uniqueTo": "Mali",
+		"uniqueTo": "Songhai",
 		"replaces": "Library",
 		"faith": 1,
 		"hurryCostModifier": 25,
@@ -123,16 +123,6 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
-	},
-	{
-		"name": "Toreo",
-		"uniqueTo": "Spain",
-		"replaces": "Circus",
-		"requiredNearbyImprovedResources": ["Cattle","Horses"],
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Gold, +1 Food] from [Cattle] tiles [in this city]"],
 		"requiredTech": "Trapping"
 	},
 	{
@@ -263,12 +253,10 @@
 		"name": "Satrap's Court",
 		"uniqueTo": "Persia",
 		"replaces": "Courthouse",
-		"gold": 2,
 		"happiness": 2,
 		"maintenance": 0,
-		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 50,
-		"uniques": ["Removes extra unhappiness from annexed cities <in [Annexed] cities>"],
+		"uniques": ["Removes extra unhappiness from annexed cities", "Can only be built <in [Annexed] cities>"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -292,11 +280,10 @@
 		"name": "Sphinx",
 		"uniqueTo": "Egypt",
 		"replaces": "Colosseum",
-		"maintenance": 0,
+		"maintenance": 1,
 		"happiness": 2,
-		"faith": 1,
+		"culture": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+20]% Production when constructing [All] wonders [in this city]", "[+1 Culture] <after discovering [Archaeology]>"],
 		"requiredTech": "Construction"
 	},
 	{
