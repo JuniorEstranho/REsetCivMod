@@ -270,7 +270,7 @@
 	{
 		"name": "Hand-Axe",
 		"uniqueTo": "Barbarians",
-		"name": "Chariot Archer",
+		"replaces": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 9,
@@ -786,6 +786,20 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Tercio",
+		"uniqueTo": "Spain",
+		"replaces": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 26,
+		"cost": 165,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Janissary",
 		"uniqueTo": "The Ottomans",
 		"replaces": "Musketman",
@@ -796,7 +810,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["Excess Food converted to Production when under construction"],
 		"promotions": ["[Janissary] ability"],
 		"attackSound": "shot"
 	},
@@ -818,7 +832,7 @@
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 25,
-		"cost": 150,
+		"cost": 125,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"uniques": ["[+100]% Strength <vs [Land] units> <when attacking>"],
@@ -951,7 +965,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Clamberer"],
 		"attackSound": "cavalry"
 	},
@@ -968,7 +982,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Shock I"],
+		"promotions": ["Shock I", "Drill I"],
 		"attackSound": "cavalry"
 	},
 	{
