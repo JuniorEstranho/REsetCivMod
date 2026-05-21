@@ -723,7 +723,7 @@
 	},
 	{
 		"name": "Blowgunner Camouflage", //Only for Blowgunner and subsequent upgrades
-		"name": ["Invisible to non-adjacent units <in [Jungle] tiles>"]
+		"uniques": ["Invisible to non-adjacent units <in [Jungle] tiles>"]
 	},
 	{
 		"name": "Double Mobility", //Only for Ship of the Line and subsequent upgrades
