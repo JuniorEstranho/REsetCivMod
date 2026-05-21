@@ -125,8 +125,8 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
-		"unique": ["[+25]% Strength <in [Jungle] tiles>"],
-		"promotion": ["Blowgunner Camouflage"],
+		"uniques": ["[+25]% Strength <in [Jungle] tiles>"],
+		"promotions": ["Blowgunner Camouflage"],
 		"attackSound": "arrow"
 	},
 	{
@@ -239,7 +239,7 @@
 	{
 		"name": "War Elephant",
 		"uniqueTo": "India",
-		"name": "Chariot Archer",
+		"replaces": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 3,
 		"strength": 9,
