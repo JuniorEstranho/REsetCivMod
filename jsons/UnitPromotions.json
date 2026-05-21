@@ -718,8 +718,12 @@
 		"uniques": ["[+25]% Strength <when fighting in [Foreign Land] tiles>", "[+25]% Strength <on foreign continents>"]
 	},
 	{
-		"name": "Bushido", //Only for Samurai and subsequent upgrades
-		"uniques": ["No damage penalty for wounded units", "Ignores Zone of Control"]
+		"name": "Clamberer", //Only for Oromo Cavalry and subsequent upgrades
+		"uniques": ["[+33]% Strength <when fighting in [Hill] tiles>", "Ignores terrain cost <in [Hill] tiles>"]
+	},
+	{
+		"name": "Blowgunner Camouflage", //Only for Blowgunner and subsequent upgrades
+		"name": ["Invisible to non-adjacent units <in [Jungle] tiles>"]
 	},
 	{
 		"name": "Double Mobility", //Only for Ship of the Line and subsequent upgrades
