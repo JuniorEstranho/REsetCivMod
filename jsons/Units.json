@@ -69,6 +69,7 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": ["Mercenary Unit"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -140,6 +141,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"uniques": ["Mercenary Unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -277,7 +279,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Mercenary Unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -319,7 +321,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["[Persian Immortal] ability","Cover I"],
+		"promotions": ["[Persian Immortal] ability","Shock I"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -333,7 +335,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Mercenary Unit"],
 		"attackSound": "metalhit"
 	},
 
@@ -692,10 +694,10 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Rifling",
+		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Can instantly construct a [Fishing Boats] improvement"],
-		"promotions": ["Shock I","Bushido"],
+		"promotions": ["Shock I","Great Generals II"],
 		"attackSound": "metalhit"
 	},
 
