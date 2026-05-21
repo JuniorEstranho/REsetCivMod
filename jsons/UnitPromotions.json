@@ -779,8 +779,8 @@
 		"uniques": ["Can move after attacking"]
 	},
 	{
-		"name": "[Zero] ability",
-		"uniques": ["[+33]% Strength <vs [Fighter] units>"]
+		"name": "[Panzer] ability",
+		"uniques": ["[+33]% Strength <vs [Armored] units>"]
 	},
 	{
 		"name": "[Mohawk Warrior] ability",
