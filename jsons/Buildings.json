@@ -25,11 +25,10 @@
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
 		"replaces": "Monument",
-		"culture": 2,
-		"science": 2,
+		"culture": 3,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
+		"maintenance": 0,
 	},
 	// Column 1
 	{
@@ -95,16 +94,6 @@
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Writing"
-	},
-	{
-		"name": "Mud Pyramid Mosque",
-		"uniqueTo": "Songhai",
-		"replaces": "Library",
-		"faith": 1,
-		"hurryCostModifier": 25,
-		"maintenance": 0,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Writing"
 	},
@@ -284,6 +273,8 @@
 		"happiness": 2,
 		"culture": 2,
 		"hurryCostModifier": 25,
+		"uniques": ["Comment [Every tile in [River] (or [Fresh Water]) yields [+100]% during a Golden Age]",
+			"[+100]% Yield from every [{non-[Road]} {non-[Railroad]} {non-[City center]} {All}] <in [Fresh Water] tiles> <during a Golden Age> <in this city> <hidden from users>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -305,13 +296,24 @@
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
 	{
+		"name": "Mud Pyramid Mosque",
+		"uniqueTo": "Songhai",
+		"replaces": "Temple",
+		"faith": 2,
+		"culture": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+	},
+    {
 		"name": "Pyramid",
 		"uniqueTo": "The Maya",
 		"replaces": "Temple",
-		"faith": 2,
-		"science": 2,
+		"faith": 3,
+		"science": 4,
 		"requiredBuilding": "Shrine",
-		"maintenance": 1,
+		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": ["Destroyed when the city is captured"],
@@ -455,7 +457,7 @@
 		"culture": 2,
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"requiredTech": "Theology"
 	},
 	{
