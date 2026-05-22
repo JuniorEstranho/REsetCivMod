@@ -285,7 +285,7 @@
 			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>",
 			"Can be built outside your borders",
 			"Can only be built on [Coastal] tiles",
-			"Cannot be built on [Resource] <hidden from users>",
+			"Cannot be built on [Resource] tiles <hidden from users>",
 			"Destroyed when pillaged <hidden from users>"]
 	},
 	{
