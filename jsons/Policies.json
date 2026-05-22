@@ -368,9 +368,9 @@
                 "name": "Mercenary Army",
                 "uniques": [
                     "Comment [[Landsknecht] is available]",
-                    "Comment [[Guerrilha] is available]",
+                    "Comment [[Guerrilla] is available]",
                     "[-100]% maintenance costs <for [Landsknecht] units>",
-                    "[-100]% maintenance costs <for [Guerrilha] units>"
+                    "[-100]% maintenance costs <for [Guerrilla] units>"
                 ],
                 "row": 1,
                 "column": 2
@@ -378,7 +378,8 @@
             {
                 "name": "Wagon Trains",
                 "uniques": [
-                    "[-50]% maintenance on road & railroads"
+                    "[-50]% maintenance on road & railroads",
+                    "[+1 Gold] [in all cities connected to capital]"
                 ],
                 "row": 1,
                 "column": 4
