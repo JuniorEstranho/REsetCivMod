@@ -600,7 +600,7 @@
 		"uniqueName": "Achaemened Might",
 		"uniques": ["[+10]% Strength <for [Military] units> <during a Golden Age>", 
 			"[+1] Movement <for [All] units> <during a Golden Age>",
-			"Comment [All [Military] units gain [2] XP per turn during a Golden Age]", "[-95]% Strength <when defending>"], 
+			"Comment [All [Military] units gain [2] XP per turn during a Golden Age]", "[-100]% Strength", "[-100]% Strength for cities <when attacking>"], 
 		//for a joke, lol
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
