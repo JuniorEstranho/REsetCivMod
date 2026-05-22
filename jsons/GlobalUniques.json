@@ -11,9 +11,10 @@
         "[-1] Sight <for [Embarked] units>",
     ],
     "unitUniques": ["[-100]% to Flank Attack bonuses <vs [France] units>",
+        "[2] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] units>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles>",
-        "[This Unit] gains [15] XP <upon entering a Golden Age> <for [Persia] Civilizations>"], 
+        "[This Unit] gains [1] XP <upon turn start> <for [Persia] Civilizations>"], 
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
