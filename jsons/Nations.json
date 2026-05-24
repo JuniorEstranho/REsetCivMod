@@ -239,6 +239,35 @@
 			"Saldae"]
 	},
 	{
+		"name": "Celts",
+		"leaderName": "Boudicca",
+		"adjective": ["Celtic"]
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Domination",
+		"personality": "Boudicca",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"denounced": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+		"outerColor": [12,75,25],
+		"innerColor": [157,172,255],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "",
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"cities": ["Edinburgh"]
+	},
+	{
 		"name": "China",
 		"leaderName": "Qin Shin Huang",
 		"adjective": ["Chinese"],
@@ -932,13 +961,42 @@
 
 		"outerColor": [180, 178, 164],
 		"innerColor": [70, 0, 4],
-		"favoredReligion": "Scourge of God",
-		"uniqueName": "Tengriism",
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Scourge of God",
 		"uniques": ["Starts with [Animal Husbandry]",
 			"[+1 Production] from every [Pasture]",
 			"No movement cost to pillage <for [Mounted] units>",
 			"\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Attila's Court"]
+	},
+	{
+		"name": "The Lusitanian",
+		"leaderName": "Viriato",
+		"adjective": ["Lusitanian"]
+		"startBias": ["Avoid [Desert]","Avoid [Tundra]"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Viriato",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The sky will turn gray!",
+		"attacked": "I won't let anything you want happen.",
+		"denounced": "Bad decision, this will cause your downfall.",
+		"defeated": "I wasn't strong enough to stop him. My people will avenge me!",
+		"introduction": "The sky is perfect for a stroll; did you come here to admire the hills? Welcome.",
+
+		"neutralHello": "Good day.",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "You're kind, like I've heard? Then you wouldn't mind if I asked this.",
+
+		"outerColor": [0,126,237],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "",
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"cities": ["Olisipo"]
 	},
 	{
 		"name": "The Maya",
