@@ -101,6 +101,39 @@
 			"Itzapalapa","Ayotzinco","Iztapam"]
 	},
 	{
+		"name": "Babylon",
+		"leaderName": "Nebuchadnezzar II",
+		"adjective": ["Babylonian"]
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Nebuchadnezzar II",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"denounced": "Ingenuity.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [27, 53, 63],
+		"innerColor": [213, 249, 255],
+		"favoredReligion": "Islam",
+		"uniqueName": "Ascension",
+		"uniques": ["Provides a [Library] in your first [7] cities for free",
+			"[+1 Culture] from every [Library] <after discovering [Writing]>"],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"]
+	},
+	{
 		"name": "Brazil",
 		"leaderName": "Pedro II",
 		"adjective": ["Brazilian"],
@@ -160,10 +193,10 @@
 		"innerColor": [254, 234, 102],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Patriarchate of Constantinople",
-		"uniques": ["Comment [Receive a [Faith] boost, upon constructing a [Wonder]]",
-			"[+33]% [Faith] [in all cities] <for [15] turns> <upon constructing [{non-[Palace]} {Wonder}]> <hidden from users>",
-			"[+100]% Natural religion spread [in puppeted cities]",
-			"[+100]% Natural religion spread [in annexed cities]"],
+		"uniques": ["Comment [[+3 Faith] from every [Wonder]]",
+			"[+3 Faith] from every [{non-[Palace]} {Wonder}]",
+			"[+25]% Natural religion spread [in puppeted cities]",
+			"[+50]% Natural religion spread [in annexed cities]"],
 		"cities": ["Constantinople","Adrianople","Nicaea","Antioch","Varna", "Ohrid","Nicomedia","Trebizond","Cherson", "Sardica",
 			"Ani","Dyrrachium","Edessa", "Chalcedon","Naissus","Bari","Iconium", "Prilep","Samosata", "Kars","Nicopolis", "Theodosiopolis",
 			"Tyana","Gaza","Kerkyra", "Phoenice","Selymbria","Sillyon", "Chrysopolis","Vodena","Caesarea", "Traianoupoli","Constantia","Athens", 
@@ -335,7 +368,7 @@
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Spirit of Adwa",
 		"uniques": ["Comment [Gain a [Production] boost for constructing [Military] units, upon a Major Civilization declares war on you (during the time you can't make agreement peace with them)]",
-			"[+30]% Production when constructing [Military] units [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>"],
+			"[+25]% Production when constructing [Military] units [in all cities] <for [10] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>"],
 		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
 			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
 			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
@@ -436,9 +469,8 @@
 		"innerColor": [65, 141, 254],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Son of Zeus",
-		"uniques": ["[+50]% Strength <for [non-[Siege]] units> <vs cities> <when attacking>",
-			"[-50]% XP required for promotions <for [Mounted] units>",
-			"[-50]% Unhappiness from [Population] [in annexed cities]"],
+		"uniques": ["[+2] Movement <for [Great General] units>",
+			"Upon capturing a city, receive [7] times its [Culture] production as [Golden Age points] immediately"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
@@ -577,6 +609,40 @@
 			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
+	},
+	{
+		"name": "Mongolia",
+		"leaderName": "Genghis Khan",
+		"adjective": ["Mongolian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		"personality": "Genghis Khan",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You stand in the way of my armies. Let us solve this like warriors!",
+		"attacked": "No more words. Today, Mongolia charges toward your defeat.",
+		"denounced": "Your courage must be commended.",
+		"defeated": "You have hobbled the Mongolian clans. My respect for you nearly matches the loathing. I am waiting for my execution.",
+		"introduction": "I am Temuujin, conqueror of cities and countries. Before me lie future Mongolian lands. Behind me is the only cavalry that matters.",
+
+		"neutralHello": "Hello!",
+		"hateHello": "So what now?",
+
+		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+
+		"outerColor": [81 ,0 , 9],
+		"innerColor": [255 ,120 , 0],
+		"favoredReligion": "Tengriism",
+		"uniqueName": "Mongol Terror",
+		"uniques": ["[+30]% Strength <vs [City-States]>",
+			"[+1] Movement <for [Mounted] units>",
+			"Cities are razed [2] times as fast"],
+		"cities": ["Karakorum","Beshbalik","Turfan","Hsia","Old Sarai","New Sarai","Tabriz","Tiflis","Otrar","Sanchu","Kazan",
+			"Almarikh","Ulaanbaatar","Hovd","Darhan","Dalandzadgad","Mandalgovi","Choybalsan","Erdenet","Tsetserieg",
+			"Baruun-Urt","Ereen","Batshireet","Choyr","Ulaangom","Tosontsengel","Altay","Uliastay","Bayanhongor",
+			"Har-Ayrag","Nalayh","Tes"]
 	},
 	{
 		"name": "Persia",
@@ -843,6 +909,38 @@
 			"Eshnunna"]
 	},
 	{
+		"name": "The Huns",
+		"leaderName": "Attila the Hun",
+		"adjective": ["Huns"]
+		"startBias": ["Avoid [Desert]","Avoid [Forest]","Avoid [Jungle]"],
+		"preferredVictoryType": "Domination",
+		"personality": "Attila the Hun",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
+		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
+		"denounced": "",
+		"defeated": "My people will mourn me not with tears, but with human blood.",
+		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
+
+		"neutralHello": "Good day to you.",
+		"hateHello": "It's you.",
+
+		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
+
+		"outerColor": [180, 178, 164],
+		"innerColor": [70, 0, 4],
+		"favoredReligion": "Scourge of God",
+		"uniqueName": "Tengriism",
+		"uniques": ["Starts with [Animal Husbandry]",
+			"[+1 Production] from every [Pasture]",
+			"No movement cost to pillage <for [Mounted] units>",
+			"\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Attila's Court"]
+	},
+	{
 		"name": "The Maya",
 		"leaderName": "Pacal",
 		"adjective": ["Mayan"],
@@ -935,9 +1033,8 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pindorama Home",
 		"uniques": ["[+1 Happiness] [in all cities with a garrison] <after discovering [Trapping]>",
-			"Comment [Units garrisoned in cities receive multiple boosts to strength, range, and more attacks during a single turn.]",
-			"[+1] Range <for [Ranged] units> <in [{your} {City center}] tiles> <hidden from users>",
-			"[+50]% Strength <for [Military] units> <in [{your} {City center}] tiles> <when attacking> <hidden from users>"],
+			"Comment [Units garrisoned in cities receive more range and additional attacks during a single turn.]",
+			"[+1] Range <for [Ranged] units> <in [{your} {City center}] tiles> <hidden from users>"],
 		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz","Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma",
 			"Awetí","Mondé","Tuparí"]
 	},
@@ -953,18 +1050,6 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [127, 177, 236],
 		"cities": ["Brussels"]
-	},
-	{
-		"name": "Bucharest", //I'll turn it in civ!
-		"adjective": ["Bucuresti"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I guess you weren't here for the sprouts after all...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [113, 227, 114],
-		"cities": ["Bucharest"]
 	},
 	{
 		"name": "Florence",
