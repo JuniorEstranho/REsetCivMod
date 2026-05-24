@@ -249,23 +249,27 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "",
-		"attacked": "",
-		"denounced": "",
-		"defeated": "",
-		"introduction": "",
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!",
+		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your balls!",
+		"denounced": "Don't forget who you're dealing with. Arrogant moves can get you in danger.",
+		"defeated": "Vile ruler, know you have won this war in name alone. Your cities lie buried and your troops defeated. I have my own victory.",
+		"introduction": "I am Boudicca, Queen of the Celts. Let no-one underestimate me!",
 
-		"neutralHello": "",
-		"hateHello": "",
+		"neutralHello": "God has given good to you.",
+		"hateHello": "Well?",
 
-		"tradeRequest": "",
+		"tradeRequest": "Let us join our forces together and reap the rewards.",
 
 		"outerColor": [12,75,25],
 		"innerColor": [157,172,255],
 		"favoredReligion": "Protestantism",
-		"uniqueName": "",
-		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
-		"cities": ["Edinburgh"]
+		"uniqueName": "Druidic Lore",
+		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
+			"[+2 Faith, +2 Culture] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"],
+		"cities": ["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
+			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
+			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
+			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"]
 	},
 	{
 		"name": "China",
