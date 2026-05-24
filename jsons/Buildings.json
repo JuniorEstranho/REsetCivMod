@@ -181,7 +181,7 @@
 	{
 		"name": "Ordu",
 		"uniqueTo": "Mongolia",
-		"replaces": "Barbarians",
+		"replaces": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "New [Mounted] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
