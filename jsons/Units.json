@@ -295,6 +295,20 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Pictish Warrior",
+		"replaces": "Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Swordsman] units>"],
+		"promotions": ["Pictish Courage"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Hoplite",
 		"uniqueTo": "Greece",
 		"replaces": "Spearman",
