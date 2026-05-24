@@ -85,6 +85,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Bowman",
+		"uniqueTo": "Babylon",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Slinger",
 		"uniqueTo": "Inca",
 		"replaces": "Archer",
@@ -119,13 +133,13 @@
 		"replaces": "Archer",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 4,
+		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
-		"uniques": ["[+25]% Strength <in [Jungle] tiles>"],
+		"uniques": ["[+10] HP when healing <in [Jungle] tiles>"],
 		"promotions": ["Blowgunner Camouflage"],
 		"attackSound": "arrow"
 	},
@@ -218,7 +232,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "arrow"
 	},
 	{
@@ -257,7 +271,7 @@
 		"replaces": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 4,
-		"strength": 7,
+		"strength": 6,
 		"rangedStrength": 10,
 		"cost": 56,
 		"requiredTech": "The Wheel",
@@ -265,6 +279,22 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>", "Can move after attacking"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Horse Archer",
+		"uniqueTo": "The Huns",
+		"replaces": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -305,7 +335,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Swordsman] units>"],
+		"uniques": ["[+50]% Strength <vs [Sword] units> <when attacking>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -337,6 +367,20 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["[Persian Immortal] ability","Shock I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Battering Ram",
+		"uniqueTo": "The Huns",
+		"replaces": "Spearman",
+		"unitType": "Siege", //changed to Siege type
+		"movement": 2,
+		"strength": 11,
+		"cost": 70,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>","Can only attack [City] units","No defensive terrain bonus","[-25]% Strength <when defending>","[-1] Sight"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -461,6 +505,22 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Falarica",
+		"uniqueTo": "The Lusitanian"
+		"replaces": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>"],
+		"promotions": ["Accuracy I"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
