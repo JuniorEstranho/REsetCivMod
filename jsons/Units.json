@@ -296,6 +296,7 @@
 	},
 	{
 		"name": "Pictish Warrior",
+		"uniqueTo": "Celts",
 		"replaces": "Spearman",
 		"unitType": "Sword",
 		"movement": 2,
