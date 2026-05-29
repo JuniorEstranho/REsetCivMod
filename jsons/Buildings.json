@@ -25,10 +25,10 @@
 		"name": "Stele",
 		"uniqueTo": "Ethiopia",
 		"replaces": "Monument",
-		"culture": 3,
+		"culture": 4,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 0,
+		"maintenance": 1,
 	},
 	// Column 1
 	{
@@ -143,6 +143,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Walls of Babylon",
+		"uniqueTo": "Babylon",
+		"replaces": "Walls",
+		"cityStrength": 8,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Krepost",
 		"uniqueTo": "Russia",
 		"replaces": "Walls",
@@ -183,15 +193,15 @@
 		"uniqueTo": "Mongolia",
 		"replaces": "Barracks",
 		"hurryCostModifier": 25,
-		"maintenance": 0,
-		"uniques": ["New [Military] units start with [15] XP [in this city]", "New [Mounted] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "New [Mounted] units start with [15] XP [in this city]", "[+15]% Production when constructing [Mounted] units", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["[+25]% Strength <for [All] units> <vs cities> <when attacking>", "Only available <after adopting [Honor]>"],
+		"uniques": ["[+20]% Strength <for [All] units> <vs cities> <when attacking>", "Only available <after adopting [Honor]>"],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad",
 	},
@@ -280,10 +290,8 @@
 		"replaces": "Colosseum",
 		"maintenance": 1,
 		"happiness": 2,
-		"culture": 2,
+		"faith": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["Comment [Every tile in [River] (or [Fresh Water]) yields [+100]% during a Golden Age]",
-			"[+100]% Yield from every [{non-[Road]} {non-[Railroad]} {non-[City center]} {All}] <in [Fresh Water] tiles> <during a Golden Age> <in this city> <hidden from users>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -704,8 +712,7 @@
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"gold": 25, "production": 5},
-		"cityStrength": 3,
+		"percentStatBonus": {"gold": 25, "production": 10},
 		"cityHealth": 25,
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
@@ -858,14 +865,13 @@
 		"name": "Emperor's Public School",
 		"uniqueTo": "Brazil",
 		"replaces": "Public School",
-		"happiness": 1,
-		"culture": 2,
-		"percentStatBonus": {"science": 25},
+		"science": 3,
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"requiredTech": "Architecture"
+		"uniques": ["[+1 Science] per [2] population [in this city]", "[-25]% Unhappiness from [Specialists] [in this city]", "[-33]% production cost <when not at war>"],
+		"requiredTech": "Scientific Theory"
 	},
 	{
 		"name": "Factory",
