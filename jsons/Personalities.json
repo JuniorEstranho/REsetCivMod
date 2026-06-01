@@ -360,6 +360,36 @@
     }
   },
   {
+    "name": "Maria Theresa",
+    "production": 6,
+    "food": 6,
+    "gold": 7,
+    "science": 7,
+    "culture": 6,
+    "happiness": 6,
+    "faith": 5,
+    "military": 6,
+    "aggressive": 4,
+    "declareWar": 4,
+    "commerce": 7,
+    "diplomacy": 7,
+    "loyal": 6,
+    "expansion": 6,
+    "denounceWillingness": 6,
+    "priorities": {
+      "Tradition": 5,
+      "Liberty": 6,
+      "Honor": 3,
+      "Commerce": 7,
+      "Patronage": 9,
+      "Piety": 6,
+      "Rationalism": 7,
+      "Freedom": 6, 
+      "Autocracy": 5,
+      "Order": 7
+    }
+  },
+  {
     "name": "Montezuma I",
     "production": 6,
     "food": 7,
@@ -897,6 +927,36 @@
       "Freedom": 7,
       "Autocracy": 3,
       "Order": 5
+    }
+  },
+  {
+    "name": "Viriato",
+    "production": 5,
+    "food": 6,
+    "gold": 4,
+    "science": 6,
+    "culture": 6,
+    "happiness": 5,
+    "faith": 5,
+    "military": 6,
+    "aggressive": 4,
+    "declareWar": 5,
+    "commerce": 4,
+    "diplomacy": 5,
+    "loyal": 6,
+    "expansion": 5,
+    "denounceWillingness": 7,
+    "priorities": {
+      "Tradition": 8,
+      "Liberty": 4,
+      "Honor": 6,
+      "Commerce": 5,
+      "Patronage": 6,
+      "Piety": 5,
+      "Rationalism": 6,
+      "Freedom": 7,
+      "Autocracy": 5,
+      "Order":6,
     }
   },
   {
