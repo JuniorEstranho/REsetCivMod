@@ -762,12 +762,20 @@
 		"uniques": ["Heals [50] damage if it kills a unit"]
 	},
 	{
+		"name": "[Jagas Warrior] ability",
+		"uniques": ["No movement cost to pillage"]
+	},
+	{
 		"name": "[Mandekalu Cavalry] ability",
 		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]", "No movement cost to pillage"]
 	},
 	{
 		"name": "[Cossack] ability",
 		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
+	},
+	{
+		"name": "[Hussar] ability",
+		"uniques": ["[+100]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
@@ -780,7 +788,7 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["Can move after attacking"]
+		"uniques": ["Earn [+200]% of killed [Military] unit's [Strength] as [Golden Age points]"]
 	},
 	{
 		"name": "[Panzer] ability",
