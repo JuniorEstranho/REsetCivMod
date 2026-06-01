@@ -34,6 +34,35 @@
 			"Spokane","Jacksonville","Savannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno"]
 	},
 	{
+		"name": "Angola",
+		"leaderName": "Nzinga Mbande",
+		"adjective": ["Angolan"]
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Nzinga Mbande",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"denounced": "",
+		"defeated": "",
+		"introduction": "",
+
+		"neutralHello": "",
+		"hateHello": "",
+
+		"tradeRequest": "",
+
+		"outerColor": [0,0,0],
+		"innerColor": [0,0,0],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Mwene Ngola",
+		"uniques": ["Will not be displayed in Civilopedia", "Will not be chosen for new games", "Excluded from map editor"],
+		"cities": ["Luanda"]
+	},
+	{
 		"name": "Arabia",
 		"leaderName": "Saladin",
 		"adjective": ["Arabian"],
@@ -55,10 +84,11 @@
 		"tradeRequest": "Come forth, let's do business.",
 
 		"outerColor": [32, 157, 28],
-		"innerColor": [255, 250, 143],
+		"innerColor": [255, 255, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Taqwa",
-		"uniques": ["May choose [1] additional belief(s) of any type when [founding] a religion",
+		"uniques": ["May choose [1] additional [Follower] beliefs when [enhancing] a religion",
+			"[+25]% Natural religion spread [in all cities connected to capital]",
 			"[+100]% [Oil] resource production"],
         
         "cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -124,7 +154,7 @@
 		"innerColor": [213, 249, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
-		"uniques": ["[Great Scientist] is earned [50]% faster <during a Golden Age>",
+		"uniques": ["[Great Scientist] is earned [100]% faster <during a Golden Age>",
 			"Free [Great Scientist] appears <after discovering [Writing]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
@@ -544,6 +574,38 @@
 			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"]
 	},
 	{
+		"name": "India",
+		"leaderName": "Ghandi",
+		"adjective": ["Indian"]
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Ghandi",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I have just received a report that large numbers of my troops have crossed your borders.",
+		"attacked": "My attempts to avoid violence have failed. An eye for an eye only makes the world blind.",
+		"denounced": "Interesting choice.",
+		"defeated": "You can chain me, you can torture me, you can even destroy this body, but you will never imprison my mind.",
+		"introduction": "Hello, I am Mohandas Gandhi. My people call me Bapu, but please, call me friend.",
+
+		"neutralHello": "Welcome.",
+		"hateHello": "Oh, it's you.",
+		
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+		"outerColor": [14, 113, 4],
+		"innerColor": [255, 163, 71],
+		"favoredReligion": "Hinduism",
+		"uniqueName": "Dharma",
+		"uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
+			"May choose [1] additional [Pantheon] beliefs when [enhancing] a religion"],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
+	},
+	{
 		"name": "Iroquois",
 		"leaderName": "Hiawatha",
 		"adjective": ["Iroquo"],
@@ -640,6 +702,39 @@
 			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
+	},
+	{
+		"name": "Korea",
+		"leaderName": "Seondeok",
+		"adjective": ["Korean"]
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Seondeok",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I don't wanna see your face in this palace again! That's what you deserve.",
+		"attacked": "You really want enter in war, you can't win?",
+		"denounced": "Truly mistake.",
+		"defeated": "I lost but not from my ingenuity, i lost from your knowledge.",
+		"introduction": "Welcome, foreigner.  I am Seondeok, Queen of Silla. You're come here to read and share some articles?",
+
+		"neutralHello": "Good day.",
+		"hateHello": "What do YOU want now?",
+
+		"tradeRequest": "My friend, are you interested in this arrangement?",
+
+		"outerColor": [27,33,96],
+		"innerColor": [255,0,0],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Hwarang",
+		"uniques": ["[+2 Science] from every specialist [in all cities]",
+			"[-50]% Unhappiness from [Specialists] [in all cities]",
+			"Receive a tech boost when scientific buildings/wonders are built in capital"],
+		"cities": ["Seoul","Busan","Jeonju","Daegu","Pyongyang","Kaesong","Suwon","Gwangju","Gangneung","Hamhung","Wonju","Ulsan",
+			"Changwon","Andong","Gongju","Haeju","Cheongju","Mokpo","Dongducheon","Geoje","Suncheon","Jinju","Sangju",
+			"Rason","Gyeongju","Chungju","Sacheon","Gimje","Anju"]
 	},
 	{
 		"name": "Mongolia",
