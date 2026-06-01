@@ -60,6 +60,20 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
+		"name": "Maori Warrior",
+		"uniqueTo": "Polynesia",
+		"replaces": "Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 36,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"promotions": ["Haka War Dance"]
+		"attackSound": "nonmetalhit",
+	},
+	{
 		"name": "Brute",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
@@ -199,9 +213,9 @@
 		"uniqueTo": "Carthage",
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 13,
-		"cost": 50,
+		"movement": 4,
+		"strength": 14,
+		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
@@ -278,7 +292,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>", "Can move after attacking"],
+		"uniques": ["Can move after attacking"],
 		"attackSound": "arrow"
 	},
 	{
@@ -824,7 +838,7 @@
 	{
 		"name": "Turtle Ship",
 		"uniqueTo": "Korea",
-		"name": "Caravel",
+		"replaces": "Caravel",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 30,
@@ -1072,6 +1086,22 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Hussar",
+		"uniqueTo": "Austria",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
+		"promotions": ["[Hussar] ability"],
 		"attackSound": "cavalry"
 	},
 	{
