@@ -436,10 +436,10 @@
 		"name": "Kilombo",
 		"uniqueTo": "Angola",
 		"replaces": "Aqueduct",
-		"food": 2,
+		"food": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[+50]% growth [in this city]"],
+		"uniques": ["[+40]% growth [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
