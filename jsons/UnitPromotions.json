@@ -718,16 +718,12 @@
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
-		"name": "Imperialism", //Only for Redcoat and subsequent upgrades
-		"uniques": ["[+20]% Strength <when fighting in [Enemy Land] tiles>"]
-	},
-	{
 		"name": "Clamberer", //Only for Oromo Cavalry and subsequent upgrades
 		"uniques": ["[+33]% Strength <when fighting in [Hill] tiles>", "Ignores terrain cost <in [Hill] tiles>"]
 	},
 	{
 		"name": "Blowgunner Camouflage", //Only for Blowgunner and subsequent upgrades
-		"uniques": ["Invisible to non-adjacent units <in [Jungle] tiles>"]
+		"uniques": ["Invisible to non-adjacent units <in [Jungle] tiles>", "Invisible to non-adjacent units <in [Forest] tiles>"]
 	},
 	{
 		"name": "Double Mobility", //Only for Ship of the Line and subsequent upgrades
@@ -735,7 +731,7 @@
 	},
 	{
 		"name": "Phalanx Formation", //Only for Hoplite and subsequent upgrades
-		"uniques": ["[+50]% to Flank Attack bonuses"]
+		"uniques": ["[+15]% Strength <when attacking>","[+25]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Slinger Withdraw", //Only for Slinger units and subsequent upgrades
@@ -763,11 +759,11 @@
 	},
 	{
 		"name": "[Jagas Warrior] ability",
-		"uniques": ["No movement cost to pillage"]
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "Heals [25] damage if it kills a unit"]
 	},
 	{
 		"name": "[Mandekalu Cavalry] ability",
-		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]", "No movement cost to pillage"]
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"]
 	},
 	{
 		"name": "[Cossack] ability",
@@ -775,7 +771,7 @@
 	},
 	{
 		"name": "[Hussar] ability",
-		"uniques": ["[+100]% to Flank Attack bonuses"]
+		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "[Norwegian Ski Infantry] ability",
@@ -792,7 +788,7 @@
 	},
 	{
 		"name": "[Panzer] ability",
-		"uniques": ["[+33]% Strength <vs [Armored] units>"]
+		"uniques": ["No movement cost to pillage"]
 	},
 	{
 		"name": "[Mohawk Warrior] ability",
