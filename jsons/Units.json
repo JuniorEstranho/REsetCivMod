@@ -153,8 +153,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
-		"uniques": ["[+10] HP when healing <in [Jungle] tiles>"],
-		"promotions": ["Blowgunner Camouflage"],
+		"promotions": ["Blowgunner Camouflage", "Home Sweet Home"],
 		"attackSound": "arrow"
 	},
 	{
@@ -272,7 +271,7 @@
 		"movement": 3,
 		"strength": 9,
 		"rangedStrength": 10,
-		"cost": 64,
+		"cost": 70,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -364,7 +363,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Ignores Zone of Control"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Phalanx Formation"],
 		"attackSound": "metalhit"
 	},
@@ -636,7 +635,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["Can move immediately once bought", "Mercenary Unit"],
+		"uniques": ["Can move immediately once bought", "Mercenary Unit", "Can only heal by pillaging"],
 		"promotions": ["[Jagas Warrior] ability"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
@@ -840,12 +839,13 @@
 		"uniqueTo": "Korea",
 		"replaces": "Caravel",
 		"unitType": "Melee Water",
-		"movement": 3,
+		"movement": 4,
 		"strength": 36,
 		"cost": 135,
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
+		"uniques": ["Comment [Ocean tiles movement penalty]", "[-2] Movement <in [Ocean] tiles> <hidden from users>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -883,10 +883,11 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
-		"cost": 100,
+		"cost": 125,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
+		"uniques": ["Ignores terrain cost"],
 		"promotions": ["Drill I"],
 		"attackSound": "shot"
 	},
@@ -901,8 +902,8 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+100]% Strength <when defending> <when [Embarked]> "],
-		"promotions": ["Imperialism"],
+		"uniques": ["[+25]% Strength <when [Wounded]>"],
+		"promotions": ["Quick Study"],
 		"attackSound": "shot"
 	},
 	{
@@ -1036,7 +1037,7 @@
 		"replaces": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 12,
+		"strength": 14,
 		"rangedStrength": 20,
 		"cost": 175,
 		"requiredTech": "Chemistry",
@@ -1131,7 +1132,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Medic"],
+		"promotions": ["Formation I","Medic"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1277,10 +1278,10 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
-		"cost": 225,
+		"cost": 275,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["No movement cost to pillage", "Can only heal by pillaging", "Can move immediately once bought", "Limited to [12] per Civilization", "Mercenary Unit", "Shown while unbuildable", "Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["No movement cost to pillage", "Can only heal by pillaging", "Can move immediately once bought", "Limited to [12] per Civilization", "Mercenary Unit", "Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1396,7 +1397,7 @@
 		"cost": 425,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>", "May attack when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "May attack when embarked"],
 		"attackSound": "shot"
 	},
 	{
