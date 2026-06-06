@@ -729,7 +729,7 @@
 		"innerColor": [234, 0, 68],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Foreign Missionaries",
-		"uniques": ["When spreading religion to a city, gain [5] times the amount of followers of other religions as [Gold]",
+		"uniques": ["When spreading religion to a city, gain [7] times the amount of followers of other religions as [Gold]",
 			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
