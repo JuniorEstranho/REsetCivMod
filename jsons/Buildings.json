@@ -54,10 +54,10 @@
 		"name": "Nzo Nkinsi",
 		"uniqueTo": "Kongo",
 		"replaces": "Shrine",
-		"faith": 1,
-		"culture": 1,
+		"faith": 2,
+		"production": 1,
 		"cost": 40,
-		"maintenance": 0,
+		"maintenance": 1,
 		"requiredTech": "Pottery",
 	},
 	{
@@ -450,7 +450,7 @@
 		"culture": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]]"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
