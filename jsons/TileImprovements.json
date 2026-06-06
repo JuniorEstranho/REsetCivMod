@@ -297,13 +297,13 @@
 		"food": 1,
 		"uniques": ["Gives a defensive bonus of [50]%",
 			"Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Food] for each adjacent [Maloca]",
 			"[+1 Food] <after discovering [Fertilizer]>",
 			"[+1 Food] from [Fresh Water] tiles",
 			"[+2 Culture] <after discovering [Ecology]>",
 			"Can be built outside your borders",
 			"Destroyed when pillaged",
-			"Pillaging this improvement yields approximately [+12 Gold]"]
+			"Pillaging this improvement yields approximately [+18 Gold]"]
 	},
 		
 	// Unbuildable improvements
