@@ -56,7 +56,7 @@
 		"tradeRequest": "It would help a lot if you accepted.",
 
 		"outerColor": [229,0,0],
-		"innerColor": [0,0,0],
+		"innerColor": [120,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
 		"uniques": ["[+1 Culture] [in all cities]",
@@ -89,7 +89,7 @@
 		"innerColor": [255, 255, 255],
 		"favoredReligion": "Islam",
 		"uniqueName": "Taqwa",
-		"uniques": ["May choose [1] additional belief(s) of any type when [enhancing] a religion",
+		"uniques": ["May choose [1] additional belief(s) of any type when [enhancing] a religion",
 			"[+25]% Natural religion spread [in all cities connected to capital]",
 			"[+100]% [Oil] resource production"],
         
@@ -123,7 +123,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Diplomatic Marriage",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"],
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [8] turns"],
 		"cities": ["Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitzbühel",
 			"St. Pölten","Eisenstadt","Villach","Zwettl","Traun","Wels","Dornbirn","Feldkirch", 
 			"Amstetten","Bad Ischl","Wolfsberg","Kufstein","Leoben","Klosterneuburg","Leonding",
@@ -596,9 +596,8 @@
 		"innerColor": [3, 115, 86],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Great Andean Road",
-		"uniques": ["Comment [Can build [{Road} and {Railroad}] improvements at a [+50]% rate]",
-			"Can build [Road] improvements at a [+50]% rate <hidden from users>",
-			"Can build [Railroad] improvements at a [+50]% rate <hidden from users>",
+		"uniques": [
+			"[-50]% maintenance on road & railroads",
 			"Units ignore terrain costs when moving into any tile with Hills",
 			"No Maintenance costs for improvements in [Hill] tiles"],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
@@ -731,7 +730,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Foreign Missionaries",
 		"uniques": ["[+2 Faith] from every specialist [in holy cities]",
-			"[Faith] cost of purchasing [Missionary] units [-50]%",
+			"[Faith] cost of purchasing [Missionary] units [-33]%",
 			"[+2] Movement <for [Religious Unit] units>"],
 		"cities": ["M'Banza Kongo","Soyo","Lovota","Mbula","N'Kondo","Wandu","Wembo","Kiova","Pinda","Nsoyo","Mbamba","Mpemba","Mukatu","Ndembu","Nkuso",
 			"Mbata","Mpangu","Kundi","Songo","Okango","Kongo a Niaza","Nsonso"]
@@ -824,11 +823,11 @@
 		"tradeRequest": "In my endless magnanimity, I am making you this offer. You agree, of course?",
 
 		"outerColor": [153, 5, 3],
-		"innerColor": [70, 0, 118],
+		"innerColor": [255, 255, 255],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Achaemened Might",
-		"uniques": ["[+10]% Strength <for [Military] units> <during a Golden Age>", 
-			"[+1] Movement <for [All] units> <during a Golden Age>",
+		"uniques": ["[+10]% Strength <for [Military] units> <during a Golden Age>",
+			"[+50]% Golden Age length",
 			"Comment [All [Military] units gain [+1] XP per turn during a Golden Age]"]
 		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
 			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
@@ -863,7 +862,8 @@
 		"innerColor": [0, 51, 153],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mare Clausum",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]",
+		"uniques": ["[+1 Gold] from each Trade Route",
+			"Gain a free [Harbor] [in all coastal cities]",
 			"[Great Admiral] is earned [50]% faster"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Evora",
 			"Faro","Castelo Branco","Bissau","Guarda","Praia","Braganza","Beja","Tomar",
@@ -959,7 +959,7 @@
 		"innerColor": [254, 234, 102],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pax Romana",
-		"uniques": ["[+20]% Production when constructing [all] buildings [in all cities connected to capital]"],
+		"uniques": ["[+15]% Production when constructing [all] buildings [in all cities connected to capital]"],
 	  "cities": ["Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia",
 		  "Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
 		  "Signia","Aquileia","Clusium","Sutrium","Cremona","Placentia","Hispalis","Artaxata","Aurelianorum","Nicopolis",
@@ -1055,8 +1055,8 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [0, 0, 114],
-		"innerColor": [255, 218, 54],
+		"outerColor": [0, 0, 126],
+		"innerColor": [248, 226, 221],
 		"favoredReligion": "Zoroastrianism",
 		"uniqueName": "Sumerian League",
 		"uniques": ["[-33]% City-State Influence degradation",
@@ -1079,7 +1079,7 @@
 
 		"declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
 		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
-		"denounced": "",
+		"denounced": "You really want a trouble, huh?",
 		"defeated": "My people will mourn me not with tears, but with human blood.",
 		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
 
@@ -1238,6 +1238,18 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [127, 177, 236],
 		"cities": ["Brussels"]
+	},
+	{
+		"name": "Bueno Aires",
+		"adjective": ["Argentine"]
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [94, 193, 251],
+		"cities": ["Bueno Aires"]
 	},
 	{
 		"name": "Florence",
