@@ -12,6 +12,8 @@
     ],
     "unitUniques": ["[-100]% to Flank Attack bonuses <vs [France] units>",
         "[2] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
+        "[This Unit] gains [2] movement <upon damaging a [Military] unit> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
+        "May enter foreign tiles without open borders <for [Water] units> <for [England] Civilizations>",
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] units>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles>",
         "[This Unit] gains [1] XP <upon turn start> <for [Persia] Civilizations>"], 
