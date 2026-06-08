@@ -596,7 +596,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Hellenic League",
 		"uniques": ["[-50]% City-State Influence degradation <while the empire is happy>",
-			"City-State influence recovers at twice the normal rate",
+			"City-State Influence recovers at twice the normal rate",
 			"City-State territory always counts as friendly territory"],
 		"cities": ["Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
@@ -959,7 +959,7 @@
 		"innerColor": [205, 85, 0],
 		"favoredReligion": "Orthodoxy",
 		"uniqueName": "Dragon of Wallachia",
-		"uniques": ["[+25]% Health from pillaging tiles <for [Military] units>",
+		"uniques": ["[+30]% Health from pillaging tiles <for [Military] units>",
 			"Comment [Enemy units don't have defensive terrain bonus in your territory.]",
 			"Comment [Enemy units heal [-50]% less by pillaging your tiles.]"],
 		"cities": ["Bucharest","Tirgoviste","Cluj-Napoca","Iasi","Constanta","Timisoara","Caralasi","Slobozia","Giurgiu","Pitesti","Slatina","Braila","Tulcea","Galati","Focsani","Sfontu",
@@ -1099,6 +1099,39 @@
 			"Eshnunna"]
 	},
 	{
+		"name": "Sweden",
+		"leaderName": "Gustavus Adolphus",
+		"adjective": ["Sweden"]
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Gustavus Adolphus",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The Hakkapeliittas will ride again and your men will fall just at the sight of my cavalry! God with us!",
+		"attacked": "Ha ha ha, captain Gars will be very glad to head out to war again.",
+		"denounced": "You actually seem sharper than what I had originally thought.",
+		"defeated": "I am Sweden's king. You can take my lands, my people, my kingdom, but you will never reach the House of Vasa.",
+		"introduction": "Stranger, welcome to the Snow King's kingdom! I am Gustavus Adolphus, member of the esteemed House of Vasa",
+
+		"neutralHello": "Oh, welcome!",
+		"hateHello": "Oh, it's you.",
+
+		"tradeRequest": "My friend, it is my belief that this settlement can benefit both our peoples.",
+
+		"outerColor": [8, 8, 166],
+		"innerColor": [249, 247, 3],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Nobel Prize",
+		"uniques": ["Gain [120] Influence with a [Great Person] gift to a City-State"],
+		"cities": ["Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Gothenburg","Turku","Malmö","Linköping","Kalmar","Skara","Västerås","Jönköping",
+			"Visby","Falun","Norrköping","Gävle","Halmstad","Karlskrona","Hudiksvall","Örebro","Umeå","Karlstad",
+			"Helsingborg","Härnösand","Vadstena","Lund","Västervik","Enköping","Skövde","Eskilstuna","Luleå","Lidköping", 
+			"Södertälje","Mariestad","Östersund","Borås","Sundsvall","Vimmerby","Köping","Mora","Arboga","Växjö","Gränna",
+			"Kiruna","Borgholm","Strängnäs","Sveg"]
+	},
+	{
 		"name": "The Huns",
 		"leaderName": "Attila the Hun",
 		"adjective": ["Huns"]
@@ -1133,7 +1166,7 @@
 	{
 		"name": "The Lusitanian",
 		"leaderName": "Viriato",
-		"adjective": ["Lusitanian"]
+		"adjective": ["Lusitanian"],
 		"startBias": ["Avoid [Desert]","Avoid [Tundra]"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Viriato",
@@ -1153,7 +1186,7 @@
 		"tradeRequest": "You're kind, like I've heard? Then you wouldn't mind if I asked this.",
 
 		"outerColor": [63, 178, 168],
-		"innerColor": [30, 115, 105],
+		"innerColor": [20, 105, 95],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Anti-Imperium",
 		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
@@ -1220,7 +1253,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Turkish Bombard",
 		"uniques": ["[+25]% Production when constructing [Siege] units [in all cities]",
-			"[+25]% Strength <for [Siege] units> <when defending>",
+			"[-50]% XP required for promotions <for [Siege] units>",
 			"[-50]% maintenance costs <for [Siege] units>"],
 		"cities": ["Istanbul","Edirne","Ankara","Bursa","Konya","Samsun","Gaziantep","Diyarbakır","Izmir","Kayseri","Malatya",
 			"Mersin","Antalya","Zonguldak","Denizli","Ordu","Muğla","Eskişehir","Inebolu","Sinop","Adana","Artvin",
@@ -1252,9 +1285,9 @@
 		"innerColor": [76,43,21],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pindorama Home",
-		"uniques": ["[+1 Happiness] [in all cities with a garrison] <after discovering [Trapping]>",
-			"Comment [Units garrisoned in cities receive more range and additional attacks during a single turn.]",
-			"[+1] Range <for [Ranged] units> <in [{your} {City center}] tiles> <hidden from users>"],
+		"uniques": ["Comment [Units garrisoned in cities receive [+1] Range, [+50]% XP gained from combat and additional attacks during a single turn.]",
+			"[+1] Range <for [Ranged] units> <in [{your} {City center}] tiles> <hidden from users>",
+			"[+50]% XP gained from combat <for [Military] units> <in [{your} {City center}] tiles> <hidden from users>"],
 		"cities": ["Yperoig","Tamoio","Tupinambá","Tremembê","Potiguara","Tabajara","Caeté","Tupiniquim","Aimorê","Goitacaz","Temiminó","Guarani","Mawé","Munduruku","Juruna","Arikém","Ramaráma",
 			"Awetí","Mondé","Tuparí"]
 	},
@@ -1381,16 +1414,16 @@
 		"cities": ["Cape Town"]
 	},
 	{
-		"name": "Helsinki",
-		"adjective": ["Helsinkian"],
+		"name": "Toronto",
+		"adjective": ["Torontonian"],
 		"cityStateType": "Maritime",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
+		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255,178,102],
-		"cities": ["Helsinki"],
+		"innerColor": [188, 43, 40],
+		"cities": ["Toronto"],
 	},
 	{
 		"name": "Manila",
@@ -1514,8 +1547,8 @@
 		"innerColor": [167, 162, 216],
 		"cities": ["Colombo"]
 	},
-  {
-    "name": "Venice",
+	{
+		"name": "Venice",
 		"adjective": ["Venetian"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Coast"],
@@ -1526,7 +1559,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [153,204,255],
 		"cities": ["Venice"]
-  },
+	},
 	{
 		"name": "Genoa",
 		"adjective": ["Genoese"],
@@ -1651,16 +1684,17 @@
 		"cities": ["Dublin"],
 	},
 	{
-		"name": "Edinburgh",
-		"adjective": ["Edinburghensian"],
+		"name": "Palmares", //Brazilian historically 'kilombo'
+		"adjective": ["Quilombola"],
 		"cityStateType": "Militaristic",
+		"startBias": ["Jungle"],
 
-		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
-		"attacked": "Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!",
+		"declaringWar": "We don't like your face. To arms!",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "Vile ruler, know that you 'won' this war in name only!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [0,102,102],
-		"cities": ["Edinburgh"],
+		"innerColor": [99, 177, 0],
+		"cities": ["Palmares"],
 	},
 	{
 		"name": "Hanoi",
