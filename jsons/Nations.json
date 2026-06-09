@@ -869,6 +869,41 @@
 			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka"]
 	},
 	{
+		"name": "Polynesia",
+		"leaderName": "Kamehameha I",
+		"adjective": ["Polynesian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Kamehameha I",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
+		"attacked": "It is obvious now that I misjudged you and your true intentions.",
+		"denounced": "Friend, careful with your steps.",
+		"defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
+		"introduction": "Aloha! Greetings and blessings upon you, friend. I am Kamehameha, Great King of this strand of islands.",
+
+		"neutralHello": "Welcome, friend!",
+		"hateHello": "Oh, it's you.",
+		
+		"tradeRequest": "Come, let our people feast together!",
+
+		"outerColor": [217, 89, 0],
+		"innerColor": [255, 255, 75],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Wayfinding",
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>",
+			"[+1] Sight <for [Embarked] units>",
+			"[+10]% Strength <within [2] tiles of a [Moai]>"],
+		"cities": ["Honolulu","Samoa","Tonga","Nuku Hiva","Raiatea","Aotearoa","Tahiti","Hilo","Te Wai Pounamu","Rapa Nui",
+			"Tuamotu","Rarotonga","Tuvalu","Tubuai","Mangareva","Oahu","Kiritimati","Ontong Java","Niue","Rekohu",
+			"Rakahanga","Bora Bora","Kailua","Uvea","Futuna","Rotuma","Tokelau","Lahaina","Bellona","Mungava","Tikopia", 
+			"Emae","Kapingamarangi","Takuu","Nukuoro","Sikaiana","Anuta","Nuguria","Pileni","Nukumanu"]
+	},
+	{
 		"name": "Portugal",
 		"leaderName": "João III",
 		"adjective": ["Portuguese"],
@@ -998,6 +1033,41 @@
 		  "Agrippina","Verona","Corfinium","Treverii","Sirmium","Augustadorum","Curia","Interrama","Adria"]
 	},
 	{
+		"name": "Siam",
+		"leaderName": "Ramkhamhaeng ",
+		"adjective": ["Siamese"]
+		"startBias": ["Avoid [Forest]"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Ramkhamhaeng",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You lowly, arrogant fool! I will make you regret of your insolence!",
+		"attacked": "You scoundrel! I shall prepare to fend you off!",
+		"denounced": "You are slowly sinking into your own ego!",
+		"defeated": "Although I lost, my honor shall endure. I wish you good luck.",
+		"introduction": "I, Pho Kun Ramkhamhaeng, King of Siam, consider it a great honor that you have walked to visit my country of Siam.",
+
+		"neutralHello": "Welcome.",
+		"hateHello": "Greetings.",
+
+		"tradeRequest": "Greetings. I believe this is a fair proposal for both parties. What do you think?",
+
+		"outerColor": [245, 230, 55],
+		"innerColor": [177, 8, 3],
+		"favoredReligion": "Buddhism",
+		"uniqueName": "Paternity",
+		"uniques": ["[+50]% [Food] from City-States",
+			"[+50]% [Culture] from City-States",
+			"[+50]% [Faith] from City-States",
+			"Military Units gifted from City-States start with [+15] XP"],
+		"cities": ["Sukhothai","Si Satchanalai","Muang Saluang","Lampang","Phitsanulok","Kamphaeng Pet","Nakhom Chum","Vientiane",
+			"Nakhon Si Thammarat","Martaban","Nakhon Sawan","Chainat","Luang Prabang","Uttaradit","Chiang Thong","Phrae", 
+			"Nan","Tak","Suphanburi","Hongsawadee","Thawaii","Ayutthaya","Taphan Hin","Uthai Thani","Lap Buri","Ratchasima",
+			"Ban Phai","Loci","Khon Kaen","Surin"]
+	},
+	{
 		"name": "Songhai",
 		"leaderName": "Askia",
 		"adjective": ["Songhai"],
@@ -1101,7 +1171,7 @@
 	{
 		"name": "Sweden",
 		"leaderName": "Gustavus Adolphus",
-		"adjective": ["Sweden"]
+		"adjective": ["Swedish"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Diplomatic",
 		"personality": "Gustavus Adolphus",
@@ -1225,6 +1295,37 @@
 			"Edzna","Lamanai","Izapa","Uaxactun","Comalcalco","Piedras Negras","Cancuen","Yaxha","Quirigua",
 			"Q'umarkaj","Nakbe","Cerros","Xunantunich","Takalik Abaj","Cival","San Bartolo","Altar de Sacrificios","Seibal",
 			"Caracol","Naranjo","Dos Pilas","Mayapan","Ixinche","Zaculeu","Kabah"]
+	},
+	{
+		"name": "The Netherlands",
+		"leaderName": "William of Orange",
+		"adjective": ["Dutch"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "William of Orange",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "As much as I despise war, I consider it a, hahaha, contribution to the common cause to erase your existence.",
+		"attacked": "You call yourself an exalted ruler, but I see nothing more than a smartly dressed barbarian!",
+		"denounced": "What? you really are doing this with me? you're don't have condition to scare me!",
+		"defeated": "My God, be merciful to my soul. My God, feel pity for this... my poor people!",
+		"introduction": "I am William of Orange, stadtholder of The Netherlands. Did you need anything? I still have a lot to do.",
+
+		"neutralHello": "Once again, greetings.",
+		"hateHello": "What do you want?",
+
+		"tradeRequest": "I believe I have something that may be of some importance to you.",
+
+		"outerColor": [216, 120, 0],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Protestantism",
+		"uniqueName": "Dust East India Company",
+		"uniques": ["Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
+		"cities": ["Amsterdam","Rotterdam", "Utrecht","Groningen","Breda","Nijmegen", "The Hague","Haarlem","Arnhem","Zutphen", "Maastricht","Tilburg",
+			"Eindhoven", "Dordrecht","Leiden","'s Hertogenbosch", "Almere","Alkmaar","Brielle","Vlissingen","Apeldoorn","Enschede",
+			"Amersfoort", "Zwolle","Venlo","Uden","Grave","Delft", "Gouda","Nieuwstadt","Weesp","Coevorden","Kerkrade"]
 	},
 	{
 		"name": "The Ottomans",
