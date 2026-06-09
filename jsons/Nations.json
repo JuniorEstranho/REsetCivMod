@@ -55,8 +55,8 @@
 
 		"tradeRequest": "It would help a lot if you accepted.",
 
-		"outerColor": [97,0,0],
-		"innerColor": [218,0,0],
+		"outerColor": [85, 2, 2],
+		"innerColor": [223, 38, 38],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
 		"uniques": ["[+1] Happiness from each type of luxury resource"],
@@ -706,25 +706,25 @@
 	},
 	{
 		"name": "Japan",
-		"leaderName": "Tokugawa Ieyasu",
+		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
 		"startBias": ["Grassland"],
-		"preferredVictoryType": "Scientific",
-		"personality": "Tokugawa Ieyasu",
+		"preferredVictoryType": "Domination",
+		"personality": "Oda Nobunaga",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "I'll don't wait for your first attack!",
-		"attacked": "You're joking, right?",
-		"denounced": "You are waste of time.",
-		"defeated": "It wasn't supposed to end like this.",
-		"introduction": "New neighbors? Oh, Hello. Sit here, We're talking about you.",
+		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Pitiful fool! Now we shall destroy you!",
+		"denounced": "Alright then. I trust you've thought it through.",
+		"defeated": "You were much wiser than I thought.",
+		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
 
-		"neutralHello": "Greetings.",
-		"hateHello": "It's you.",
+		"neutralHello": "Hello.",
+		"hateHello": "It's you...",
 
-		"tradeRequest": "I heard you're have some richness in your lands, you can share with me?",
+		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
 
 		"outerColor": [16, 16, 16],
 		"innerColor": [235, 0, 0],
@@ -1161,7 +1161,7 @@
 		"tradeRequest": "My goods are in the table for you.",
 
 		"outerColor": [94, 54, 116],
-		"innerColor": [169, 151, 211],
+		"innerColor": [189, 171, 231],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
 		"uniques": ["[+25]% [Culture] [in all cities] <during a Golden Age>",
@@ -1259,8 +1259,8 @@
 
 		"tradeRequest": "You're kind, like I've heard? Then you wouldn't mind if I asked this.",
 
-		"outerColor": [63, 178, 168],
-		"innerColor": [20, 105, 95],
+		"outerColor": [82, 185, 176],
+		"innerColor": [19, 96, 87],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Anti-Imperium",
 		"uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>"],
@@ -1386,8 +1386,8 @@
 
 		"tradeRequest": "I've heard rumors that you're a great negotiator. Want to prove it to me?",
 
-		"outerColor": [23,132,18],
-		"innerColor": [76,43,21],
+		"outerColor": [46, 144, 41],
+		"innerColor": [70, 40, 20],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Pindorama Home",
 		"uniques": ["Comment [Units garrisoned in cities receive [+1] Range, [+50]% XP gained from combat and additional attacks during a single turn.]",
