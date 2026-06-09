@@ -416,7 +416,8 @@
                 "name": "Commerce Complete",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>", //Sweden unique
+                    "May buy [Great Merchant] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
             }
@@ -485,6 +486,8 @@
                 "uniques": [
                     "Free Technology",
                     "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    //Sweden unique
+                    "May buy [Great Scientist] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [[leaderName] the Wise]"
                 ]
             }
@@ -556,6 +559,8 @@
                     "[+100]% Yield from every [Great Improvement]",
                     "[+50]% Golden Age length",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    //Sweden unique
+                    "May buy [Great Artist] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [President [leaderName]]"
                 ]
             }
@@ -626,6 +631,8 @@
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
                     "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    //Sweden unique
+                    "May buy [Great General] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [[leaderName] the Terrible]"
                 ]
             }
@@ -697,6 +704,8 @@
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
                     "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    //Sweden unique
+                    "May buy [Great Engineer] units for [1500] [Gold] [in all cities] at an increasing price ([750]) <starting from the [Industrial era]> <for [Sweden] Civilizations> <hidden from users>",
                     "Get the leader title of [Chairman [leaderName]]"
                 ]
             }
