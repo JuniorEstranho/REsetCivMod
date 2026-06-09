@@ -151,10 +151,10 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
+		"requiredTech": "Trapping",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
-		"promotions": ["Blowgunner Camouflage", "Home Sweet Home"],
+		"promotions": ["Home Sweet Home"],
 		"attackSound": "arrow"
 	},
 	{
@@ -246,7 +246,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty"],
 		"attackSound": "arrow"
 	},
 	{
@@ -261,7 +261,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty"],
 		"attackSound": "arrow"
 	},
 	{
@@ -276,7 +276,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty"],
 		"attackSound": "arrow"
 	},
 	{
@@ -324,7 +324,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Mercenary Unit"],
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty", "Mercenary Unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -365,8 +365,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["Phalanx Formation"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Ignores Zone of Control"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -457,7 +456,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ,"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" , "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"promotions": ["Shock I","Great Generals I"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
@@ -507,7 +506,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
@@ -566,7 +565,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>", "Can see over obstacles"],
+		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>","Can see over obstacles"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -598,7 +597,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Road] improvements on tiles","Can build [Fort] improvements on tiles"],
 		"promotions": ["March"],
 		"attackSound": "metalhit"
 	},
@@ -623,7 +622,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought", "Mercenary Unit", "Can only heal by pillaging", "Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move immediately once bought","Mercenary Unit","Can only heal by pillaging", "Only available <after adopting [Mercenary Army]>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -637,7 +636,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Can move immediately once bought", "Mercenary Unit", "Can only heal by pillaging", "[-50]% production cost <after adopting [Mercenary Army]>"],
+		"uniques": ["Can move immediately once bought","Mercenary Unit","Can only heal by pillaging", "Heals [25] damage if it kills a unit","[-50]% production cost <after adopting [Mercenary Army]>"],
 		"promotions": ["[Jagas Warrior] ability"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
@@ -703,6 +702,20 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Naresuan's Elephant",
+		"uniqueTo": "Siam",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "elephant",
+	},
+	{
 		"name": "Mandekalu Cavalry",
 		"uniqueTo": "Songhai",
 		"replaces": "Knight",
@@ -716,6 +729,22 @@
 		"requiredResource": "Horses",
 		"promotions": ["[Mandekalu Cavalry] ability"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Conquistador",
+		"uniqueTo": "Spain",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+2] Sight","Founds a new puppet city <on foreign continents>"],
+		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 	},
 	{
@@ -735,22 +764,6 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Conquistador",
-		"uniqueTo": "Spain",
-		"replaces": "Knight",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 25,
-		"cost": 135,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Founds a new puppet city <on foreign continents>"],
-		"promotions": ["[Conquistador] ability"],
-		"attackSound": "horse"
 	},
 	{
 		"name": "Crossbowman",
@@ -901,7 +914,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 24,
-		"cost": 125,
+		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
@@ -920,7 +933,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+25]% Strength <when [Wounded]>"],
+		"uniques": ["[+20]% Strength <when fighting in [Enemy Land] tiles>"],
 		"promotions": ["Quick Study"],
 		"attackSound": "shot"
 	},
@@ -978,16 +991,29 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Sea Beggar",
+		"uniqueTo": "The Netherlands",
+		"replaces": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I","Coastal Raider II","[Privateer] ability", "Supply"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Barbary Corsair",
 		"uniqueTo": "The Ottomans"
 		"replaces":  "Privateer",
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 25,
-		"cost": 125,
+		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
-		"uniques": ["[+100]% Strength <vs [Land] units> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Land] units> <when attacking>"],
 		"promotions": ["Coastal Raider I", "[Privateer] ability", "Landing Party"],
 		"attackSound": "cannon"
 	},
@@ -1073,12 +1099,11 @@
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 20,
-		"cost": 175,
+		"cost": 185,
 		"requiredTech": "Chemistry",
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight"],
-		"promotions": ["Indirect Fire"],
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack", "Ranged attacks may be performed over obstacles"],
 		"attackSound": "cannon"
 	},
 
@@ -1128,10 +1153,11 @@
 		"replaces": "Rifleman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 37,
+		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["[+25]% Strength <when [Wounded]>"],
 		"promotions": ["Mobility"],
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
@@ -1331,7 +1357,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
 		"promotions": ["[Pracinha] ability"],
 		"attackSound": "shot"
 	},
@@ -1343,7 +1369,7 @@
 		"cost": 275,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["No movement cost to pillage", "Can only heal by pillaging", "Can move immediately once bought", "Limited to [12] per Civilization", "Mercenary Unit", "Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["No movement cost to pillage","Can only heal by pillaging","Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1459,7 +1485,7 @@
 		"cost": 425,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "May attack when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>","May attack when embarked"],
 		"attackSound": "shot"
 	},
 	{
