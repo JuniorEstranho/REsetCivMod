@@ -59,7 +59,7 @@
 		"innerColor": [218,0,0],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Mwene Ngola",
-		"uniques": ["[1] Happiness from each type of luxury resource"],
+		"uniques": ["[+1] Happiness from each type of luxury resource"],
 		"cities": ["Luanda","Lubango","Cabinda","Malanje","Huambo","Gabela","Sumbe","Waku Kungo",
 			"Cacolo","Ndalatando","Catumbela","Benguela","Kuito","Luena","Lucapa","Luau","Mavinga","Ondjiva","Ganda"]
 	},
@@ -1143,7 +1143,7 @@
 		"leaderName": "Gilgamesh",
 		"adjective": ["Sumerian"],
 		"startBias": ["River"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 		"personality": "Gilgamesh",
 
 		"startIntroPart1": "",
@@ -1160,8 +1160,8 @@
 
 		"tradeRequest": "My goods are in the table for you.",
 
-		"outerColor": [136, 119, 195],
-		"innerColor": [229, 162, 105],
+		"outerColor": [94, 54, 116],
+		"innerColor": [169, 151, 211],
 		"favoredReligion": "Islam",
 		"uniqueName": "Immortal Legacy",
 		"uniques": ["[+25]% [Culture] [in all cities] <during a Golden Age>",
