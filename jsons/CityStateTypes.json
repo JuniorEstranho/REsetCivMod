@@ -15,8 +15,8 @@
     },
     {
         "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "friendBonusUniques": ["[+2 Food] [in capital]", "[+1 Gold] [in all coastal cities]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Gold, +1 Production] [in all coastal cities]", "[+1 Food] [in all cities]"],
         "color": [56, 255, 112]
     },
     {
@@ -35,7 +35,7 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[16] turns"],
         "color": [255, 0, 0]
     },
     {
