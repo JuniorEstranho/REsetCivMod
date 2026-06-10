@@ -8,15 +8,14 @@
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
-        "[-1] Sight <for [Embarked] units>",
+        "[-1] Sight <for [Embarked] units> <for [non-[Polynesia]] Civilizations>",
     ],
     "unitUniques": ["[-100]% to Flank Attack bonuses <vs [France] units>",
-        "[2] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "[This Unit] gains [2] movement <upon damaging a [Military] unit> <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "May enter foreign tiles without open borders <for [Water] units> <for [England] Civilizations>",
-        "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] units>",
+        "[3] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
+        "May enter foreign tiles without open borders <in [Water] tiles> <for [England] Civilizations>",
+        "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles>",
-        "[This Unit] gains [1] XP <upon turn start> <for [Persia] Civilizations>"], 
+        "[This Unit] gains [1] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations>"], 
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
     ]
