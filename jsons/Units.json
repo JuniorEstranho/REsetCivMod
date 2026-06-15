@@ -453,7 +453,6 @@
 		"strength": 16,
 		"cost": 100,
 		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" , "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
@@ -565,7 +564,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>","Can see over obstacles"],
+		"uniques": ["[+100]% Strength <vs [Archery] units> <when defending>","[-10]% Strength <when attacking>","Can see over obstacles"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -623,6 +622,7 @@
 		"cost": 45,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move immediately once bought","Mercenary Unit","Can only heal by pillaging", "Only available <after adopting [Mercenary Army]>"],
+		"promotions": ["City Plunder"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -637,7 +637,7 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["Can move immediately once bought","Mercenary Unit","Can only heal by pillaging", "Heals [25] damage if it kills a unit","[-50]% production cost <after adopting [Mercenary Army]>"],
-		"promotions": ["[Jagas Warrior] ability"],
+		"promotions": ["City Plunder", "[Jagas Warrior] ability"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -825,10 +825,10 @@
 		"movement": 3,
 		"strength": 21,
 		"cost": 120,
-		"requiredTech": "Steel",
+		"requiredTech": "Metal Casting",
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
-		"uniques": ["[+1] Movement <when [Embarked]>", "May attack when embarked"],
+		"uniques": ["Double movement in [Coast]"],
 		"promotions": ["Amphibious"],
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -876,7 +876,7 @@
 		"requiredTech": "Astronomy",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Comment [Ocean tiles movement penalty]", "[-2] Movement <in [Ocean] tiles> <hidden from users>"],
+		"uniques": ["[-33]% Strength <when fighting in [Ocean] tiles> <when defending>", "Comment [Ocean tiles movement penalty]", "[-2] Movement <in [Ocean] tiles> <hidden from users>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -934,7 +934,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+20]% Strength <when fighting in [Enemy Land] tiles>"],
-		"promotions": ["Quick Study"],
+		"promotions": ["Great Generals I"],
 		"attackSound": "shot"
 	},
 	{
@@ -1134,6 +1134,21 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Voltigeurs Guard",
+		"uniqueTo": "Colombia",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["Can pass through impassable tiles"],
+		"promotions": ["Drill I","Fiel a la Patria"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Norwegian Ski Infantry",
 		"uniqueTo": "Denmark",
 		"replaces": "Rifleman",
@@ -1192,6 +1207,21 @@
 		"attackSound": "cavalry"
 	},
 	{
+		"name": "Llaneiro Cavalry",
+		"uniqueTo": "Colombia",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles"],
+		"promotions": ["Medic"],
+		"attackSound": "cavalry"
+	},
+	{
 		"name": "Oromo Cavalry",
 		"uniqueTo": "Ethiopia",
 		"replaces": "Cavalry",
@@ -1208,11 +1238,11 @@
 		"attackSound": "cavalry"
 	},
 	{
-		"name": "Rosiori",
-		"uniqueTo": "Romania",
+		"name": "Berber Cavalry",
+		"uniqueTo": "Morocco",
 		"replaces": "Cavalry",
 		"unitType": "Mounted",
-		"movement": 5,
+		"movement": 4,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
@@ -1220,7 +1250,23 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Formation I","Medic"],
+		"promotions": ["Homeland Defensor", "Desert Warrior"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Rosiori",
+		"uniqueTo": "Romania",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Drill I", "Formation I"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1302,7 +1348,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Volunteer Unit", "Can move immediately once bought", "Limited to [12] per Civilization", "Shown while unbuildable", "Only available <after adopting [Volunteer Army]>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Volunteer Unit", "Can move immediately once bought", "Limited to [12] per Civilization", "Only available <after adopting [Volunteer Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1366,7 +1412,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 70,
-		"cost": 275,
+		"cost": 250,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"uniques": ["No movement cost to pillage","Can only heal by pillaging","Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
@@ -1485,7 +1531,7 @@
 		"cost": 425,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>","May attack when embarked"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1523,9 +1569,8 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>","No movement cost to pillage", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
 		"name": "Tank",
