@@ -694,10 +694,6 @@
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
-		"name": "Haka War Dance",
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
-	},
-	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
 	},
@@ -714,32 +710,32 @@
         "uniques": ["Can Spread Religion <[1] additional time(s)>"]
     },
 	{
+		"name": "Open borders",
+		"uniques": ["May enter foreign tiles without open borders"]
+	},
+	{
+		"name": "City Plunder", //Only for Landsknecht and subsequent upgrades
+		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
+	},
+	{
+		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
+		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
+	},
+	{
 		"name": "Pictish Courage", //Only for Pictish Warrior and subsequent upgrades
 		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Clamberer", //Only for Oromo Cavalry and subsequent upgrades
-		"uniques": ["[+33]% Strength <when fighting in [Hill] tiles>", "Ignores terrain cost <in [Hill] tiles>"]
-	},
-	{
-		"name": "Blowgunner Camouflage", //Only for Blowgunner and subsequent upgrades
-		"uniques": ["Invisible to non-adjacent units <in [Jungle] tiles>", "Invisible to non-adjacent units <in [Forest] tiles>"]
+		"uniques": ["[+33]% Strength <when fighting in [Hill] tiles>", "Double movement in [Hill]"]
 	},
 	{
 		"name": "Double Mobility", //Only for Ship of the Line and subsequent upgrades
 		"uniques": ["Can move after attacking"]
 	},
 	{
-		"name": "Phalanx Formation", //Only for Hoplite and subsequent upgrades
-		"uniques": ["[+15]% Strength <when defending>","[+25]% to Flank Attack bonuses"]
-	},
-	{
 		"name": "Slinger Withdraw", //Only for Slinger units and subsequent upgrades
 		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
-	},
-	{
-		"name": "Open borders", //Only for England Water units and subsequent upgrades
-		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "[Jaguar] ability",
@@ -759,7 +755,7 @@
 	},
 	{
 		"name": "[Jagas Warrior] ability",
-		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
+		"uniques": ["[This Unit] heals [33] HP <upon being promoted>"]
 	},
 	{
 		"name": "[Mandekalu Cavalry] ability",
@@ -784,7 +780,7 @@
 	},
 	{
 		"name": "[Pracinha] ability",
-		"uniques": ["Earn [+150]% of killed [Military] unit's [Strength] as [Golden Age points]"]
+		"uniques": ["Earn [+200]% of killed [Military] unit's [Strength] as [Golden Age points]"]
 	},
 	{
 		"name": "[Panzer] ability",
