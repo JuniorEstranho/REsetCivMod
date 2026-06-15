@@ -723,7 +723,7 @@
 	},
 	{
 		"name": "Fiel a la Patria", //Only for Voltigeurs Guard and subsequent upgrades
-		"uniques": ["[This Unit] gains [15] XP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers [Fiel a la Patria] event <upon conquering a city> <hidden from users>"]
+		"uniques": ["[This Unit] gains [15] XP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers a [Fiel a la Patria] event <upon conquering a city> <hidden from users>"]
 	},
 	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
