@@ -702,6 +702,10 @@
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
+		"name": "Homeland Defensor",
+		"uniques": ["[+25]% Strength <when fighting in [your] tiles>"],
+	},
+	{
 		"name": "Home Sweet Home",
 		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
 	},
@@ -716,6 +720,10 @@
 	{
 		"name": "City Plunder", //Only for Landsknecht and subsequent upgrades
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
+	},
+	{
+		"name": "Fiel a la Patria", //Only for Voltigeurs Guard and subsequent upgrades
+		"uniques": ["[This Unit] gains [15] XP <upon conquering a city>", "Comment [Gain a free [Melee] unit, upon conquering a city]", "Triggers [Fiel a la Patria] event <upon conquering a city> <hidden from users>"]
 	},
 	{
 		"name": "Haka War Dance", //Only for Maori Warrior and subsequent upgrades
@@ -736,6 +744,10 @@
 	{
 		"name": "Slinger Withdraw", //Only for Slinger units and subsequent upgrades
 		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
+	},
+	{
+		"name": "Desert Warrior", //Only for Berber Cavalry and subsequent upgrades
+		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"],
 	},
 	{
 		"name": "[Jaguar] ability",
