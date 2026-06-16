@@ -731,7 +731,7 @@
 	},
 	{
 		"name": "Pictish Courage", //Only for Pictish Warrior and subsequent upgrades
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+		"uniques": ["No movement cost to pillage","[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 		"name": "Clamberer", //Only for Oromo Cavalry and subsequent upgrades
