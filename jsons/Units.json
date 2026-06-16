@@ -1063,6 +1063,21 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Llaneiro",
+		"uniqueTo": "Colombia",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Can pass through impassable tiles"],
+		"promotions": ["Drill I", "Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
 		"name": "Hakkapeliitta",
 		"uniqueTo": "Sweden",
 		"replaces": "Lancer",
@@ -1145,7 +1160,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"uniques": ["Can pass through impassable tiles"],
-		"promotions": ["Drill I","Fiel a la Patria"],
+		"promotions": ["Besiege","Fiel a la Patria"],
 		"attackSound": "shot"
 	},
 	{
@@ -1204,21 +1219,6 @@
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
 		"promotions": ["[Hussar] ability"],
-		"attackSound": "cavalry"
-	},
-	{
-		"name": "Llaneiro Cavalry",
-		"uniqueTo": "Colombia",
-		"replaces": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
-		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Can pass through impassable tiles"],
-		"promotions": ["Medic"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1411,11 +1411,11 @@
 		"name": "Guerrilla",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 70,
+		"strength": 68,
 		"cost": 250,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["No movement cost to pillage","Can only heal by pillaging","Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["No movement cost to pillage", "Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
