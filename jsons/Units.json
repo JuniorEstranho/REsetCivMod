@@ -136,25 +136,9 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 36,
-		"requiredTech": "Archery",
+		"requiredTech": "Agriculture",
 		"obsoleteTech": "Construction",
-		"promotions": ["Woodsman"],
 		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Blowgunner",
-		"uniqueTo": "The Tupi",
-		"replaces": "Archer",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Trapping",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Composite Bowman",
-		"promotions": ["Home Sweet Home"],
 		"attackSound": "arrow"
 	},
 	{
@@ -313,6 +297,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Blowgunner",
+		"uniqueTo": "The Tupi",
+		"name": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 40,
+		"requiredTech": "Trapping",
+		"upgradesTo": "Crossbowman",
+		"obsoleteTech": "Machinery",
+		"promotions": ["Barrage I", "Woodsman"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Hand-Axe",
 		"uniqueTo": "Barbarians",
 		"replaces": "Chariot Archer",
@@ -389,7 +388,7 @@
 		"replaces": "Spearman",
 		"unitType": "Siege", //changed to Siege type
 		"movement": 2,
-		"strength": 11,
+		"strength": 10,
 		"cost": 70,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
@@ -532,7 +531,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
-		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>"],
+		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>", "[+25]% Strength <vs [Mounted] units> <when attacking>"],
 		"promotions": ["Accuracy I"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
@@ -934,7 +933,7 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+20]% Strength <when fighting in [Enemy Land] tiles>"],
-		"promotions": ["Great Generals I"],
+		"promotions": ["Great Generals II"],
 		"attackSound": "shot"
 	},
 	{
@@ -1159,7 +1158,6 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"uniques": ["Can pass through impassable tiles"],
 		"promotions": ["Besiege","Fiel a la Patria"],
 		"attackSound": "shot"
 	},
@@ -1415,7 +1413,7 @@
 		"cost": 250,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["No movement cost to pillage", "Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1922,7 +1920,7 @@
 		"name": "SS Cockpit",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
+		"cost": 1250,
 		"requiredTech": "Satellites",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
@@ -1932,7 +1930,7 @@
 		"name": "SS Engine",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
+		"cost": 1250,
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
@@ -1942,7 +1940,7 @@
 		"name": "SS Stasis Chamber",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 750,
+		"cost": 1250,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
