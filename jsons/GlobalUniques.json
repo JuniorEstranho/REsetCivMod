@@ -9,10 +9,11 @@
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
         "[-1] Sight <for [Embarked] units> <for [non-[Polynesia]] Civilizations>",
+        "[-50]% Natural religion spread [in all cities]"
     ],
     "unitUniques": ["[-100]% to Flank Attack bonuses <vs [France] units>",
         "[3] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        "May enter foreign tiles without open borders <in [Water] tiles> <for [England] Civilizations>",
+        "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations>",
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles>",
         "[This Unit] gains [1] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations>"], 
