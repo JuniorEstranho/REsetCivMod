@@ -11,7 +11,7 @@ NationIcons/America
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/England
+NationIcons/Colombia
   rotate: false
   xy: 200, 0
   size: 200, 200
@@ -102,6 +102,13 @@ NationIcons/Angola
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Morocco
+  rotate: false
+  xy: 800, 800
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Nzo Nkinsi
   rotate: false
   xy: 0, 400
@@ -109,7 +116,7 @@ BuildingIcons/Nzo Nkinsi
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Samba School
+BuildingIcons/Emperor's Public School 
   rotate: false
   xy: 400, 200
   size: 200, 200
@@ -151,16 +158,16 @@ BuildingIcons/Painted Monastery
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sphinx
+BuildingIcons/Ziggurat
   rotate: false
-  xy: 800, 800
+  xy: 200, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Ziggurat
+BuildingIcons/Rock-Hewn Church
   rotate: false
-  xy: 200, 800
+  xy: 1000, 800
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
@@ -319,6 +326,20 @@ UnitIcons/Hand-Axe
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Voltigeurs Guard
+  rotate: false
+  xy: 400, 1000
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Llaneiro
+  rotate: false
+  xy: 400, 1400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Chateau
   rotate: false
   xy: 600, 400
@@ -336,6 +357,13 @@ ImprovementIcons/Maloca
 ImprovementIcons/Feitoria
   rotate: false
   xy: 1200, 400
+  size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kasbah
+  rotate: false
+  xy: 600, 1400
   size: 200, 200
   orig: 100, 100
   offset: 0, 0
