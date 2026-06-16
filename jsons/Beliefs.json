@@ -43,7 +43,7 @@
     {
         "name": "God of War",
         "type": "Pantheon",
-        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+        "uniques": ["Earn [33]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
     },
     {
         "name": "Goddess of Festivals",
@@ -109,7 +109,7 @@
     {
         "name": "Stone Circles",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
+        "uniques": ["[+1 Faith, +1 Gold] from every [Quarry]"]
     },
     {
         "name": "Earth Mother",
@@ -175,7 +175,7 @@
     {
         "name": "Monasteries",
         "type": "Follower",
-        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["May buy [Monastery] buildings for [125] [Faith] [in cities following this religion]"]
     },
     {
         "name": "Mosques",
@@ -249,7 +249,7 @@
     {
         "name": "Pilgrimage",
         "type": "Founder",
-        "uniques": ["[+2 Faith] for each global city following this religion"]
+        "uniques": ["[+1 Faith] for each global city following this religion"]
     },
     {
         "name": "Tithe",
@@ -267,7 +267,7 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        "uniques": ["[+17]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
     },
     {
         "name": "Holy Order",
@@ -277,12 +277,12 @@
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+        "uniques": ["Religion naturally spreads to cities [+2] tiles away"]
     },
     {
         "name": "Just War",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        "uniques": ["[+17]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
     },
     {
         "name": "Messiah",
@@ -292,7 +292,7 @@
     {
         "name": "Missionary Zeal",
         "type": "Enhancer",
-        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        "uniques": ["[+33]% Spread Religion Strength <for [Missionary] units>"]
     },
     {
         "name": "Religious Texts",
