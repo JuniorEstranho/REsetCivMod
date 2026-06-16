@@ -299,7 +299,7 @@
 	{
 		"name": "Blowgunner",
 		"uniqueTo": "The Tupi",
-		"name": "Chariot Archer",
+		"replaces": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
