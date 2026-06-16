@@ -20,8 +20,8 @@
     },
     {
         "name": "Domination",
-        "victoryScreenHeader": "Capture all enemy Capitals to win!",
-        "milestones": ["Capture all capitals"],
+        "victoryScreenHeader": "Capture all enemies to win!",
+        "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
@@ -30,6 +30,13 @@
         "victoryScreenHeader": "Build the UN and be voted world leader to win!",
         "milestones": ["Anyone should build [United Nations]", "Win diplomatic vote"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+    {
+        "name": "Religious",
+        "victoryScreenHeader": "Build the Grand Temple and convert the whole world to your religion to win!",
+        "milestones": ["Build [Grand Temple]", "Become the world religion"],
+        "victoryString": "You have triumphed over other nations, not through bloodshed, destruction, or corruption, but through the honor and spiritual morality inherited from our great prophets - the nations are grateful for your profound enlightenment in a world of greed and fear!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
