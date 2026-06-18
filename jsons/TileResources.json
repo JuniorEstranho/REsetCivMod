@@ -218,6 +218,21 @@
 			"Excluded from map editor"]
 	},
 	{
+		"name": "Great Work",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen <without [Great Work]>",
+			"Stockpilled",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Excluded from map editor"]
+	},
+	{
+		"name": "Great Work Slot",
+		"resourceType": "Bonus",
+		"uniques": ["Doesn't generate naturally",
+			"Excluded from map editor"]
+	},
+	{
 		"name": "Foreign Volunteer",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen <before discovering [Chivalry]>",
