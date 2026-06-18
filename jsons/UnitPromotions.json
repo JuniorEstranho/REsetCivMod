@@ -718,6 +718,10 @@
 		"uniques": ["May enter foreign tiles without open borders"]
 	},
 	{
+		"name": "Deus Vult", //Only for Templar Knight and subsequent upgrades
+		"uniques": ["No movement cost to pillage", "[+25]% Strength <when [Wounded]> <when attacking>"]
+	},
+	{
 		"name": "City Plunder", //Only for Landsknecht and subsequent upgrades
 		"uniques": ["Earn [100]% of the damage done to [City] units as [Gold]"]
 	},
@@ -759,11 +763,11 @@
 	},
 	{
 		"name": "[Conquistador] ability",
-		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>"]
+		"uniques": ["May attack when embarked", "[+100]% Strength <when defending> <when [Embarked]>"]
 	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit"]
+		"uniques": ["Heals [60] damage if it kills a unit"]
 	},
 	{
 		"name": "[Jagas Warrior] ability",
