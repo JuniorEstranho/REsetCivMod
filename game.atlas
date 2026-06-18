@@ -112,7 +112,7 @@ NationIcons/Morocco
 BuildingIcons/Nzo Nkinsi
   rotate: false
   xy: 0, 400
-  size: 200, 200
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -172,6 +172,20 @@ BuildingIcons/Rock-Hewn Church
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Hotel
+  rotate: false
+  xy: 700, 1100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Airport
+  rotate: false
+  xy: 800, 1100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Redcoat
   rotate: false
   xy: 200, 200
@@ -188,8 +202,8 @@ UnitIcons/Pracinha
   index: -1
 UnitIcons/Shieldman
   rotate: false
-  xy: 0, 600
-  size: 200, 200
+  xy: 100, 400
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -377,8 +391,8 @@ UnitPromotionIcons/Imperialism
   index: -1
 UnitPromotionIcons/Open borders
   rotate: false
-  xy: 800, 100
-  size: 200, 200
+  xy: 0, 0
+  size: 0, 0
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -391,15 +405,15 @@ PolicyIcons/Wagon Trains
   index: -1
 PolicyIcons/Entrepeneurship
   rotate: false
-  xy: 800, 1200
-  size: 200, 200
+  xy: 0, 500
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Volunteer Army
   rotate: false
-  xy: 1000, 1200
-  size: 200, 200
+  xy: 100, 500
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -407,6 +421,34 @@ PolicyIcons/Mercenary Army
   rotate: false
   xy: 1200, 1200
   size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work
+  rotate: false
+  xy: 0, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tourism
+  rotate: false
+  xy: 100, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Foreign Volunteer
+  rotate: false
+  xy: 0, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work Slot
+  rotate: false
+  xy: 100, 700
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
@@ -428,6 +470,34 @@ ReligionIcons/Christianity
   rotate: false
   xy: 600, 1000
   size: 200, 200
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Creation of Adam
+  rotate: false
+  xy: 0, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Starry Night
+  rotate: false
+  xy: 0, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Monalisa
+  rotate: false
+  xy: 0, 600
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Art
+  rotate: false
+  xy: 0, 600
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
