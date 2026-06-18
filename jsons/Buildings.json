@@ -385,7 +385,7 @@
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": ["Provides [1] [Great Work Slot] <in this city>", "Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
 	},
 	{
@@ -508,7 +508,7 @@
 		"replaces": "Garden",
 		"faith": 1,
 		"culture": 3,
-		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"uniques": ["Provides [1] [Great Work Slot] <in this city>", "[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredTech": "Theology"
@@ -734,7 +734,7 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Provides [1] [Great Work Slot] <in this city>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Ceilidh Hall",
@@ -747,7 +747,7 @@
 		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Provides [1] [Great Work Slot] <in this city>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Sistine Chapel",
@@ -914,14 +914,14 @@
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Provides [1] [Great Work Slot] <in this city>", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "The Louvre",
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["[2] free [Great Artist] units appear"],
+		"uniques": ["[2] free [Great Artist] units appear", "Provides [2] [Great Work Slot] <in this city>"],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
@@ -945,7 +945,7 @@
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]", "[-25]% production cost <when not at war>"],
+		"uniques": ["[+1 Science] per [2] population [in this city]", "Provides [1] [Great Work Slot] <in this city>"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -1032,6 +1032,12 @@
 		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Hotel",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration",
+		"uniques": ["[+50]% [Tourism] resource production <in this city>"]
 	},
 	{
 		"name": "Broadcast Tower",
@@ -1125,6 +1131,13 @@
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Airport",
+		"maintenance": 4,
+		"requiredTech": "Radar",
+		"uniques": ["[+25]% Great Person generation [in this city]","[+50]% [Tourism] resource production <in this city>"]
+		// No fast travel system because I found that to be quite excessive
 	},
 	{
 		"name": "Manhattan Project",
