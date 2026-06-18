@@ -1,4 +1,37 @@
 [
+	// Stockpiled resources
+	{
+		"name": "Tourism",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen <without [Tourism]>",
+			"Stockpiled",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Excluded from map editor"]
+	},
+	{
+		"name": "Great Work",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen <without [Great Work]>",
+			"Stockpiled",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Excluded from map editor"]
+	},
+	{
+		"name": "Great Work Slot",
+		"resourceType": "Bonus",
+		"uniques": ["Doesn't generate naturally",
+			"Excluded from map editor"]
+	},
+	{
+		"name": "Foreign Volunteer",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen <without [Foreign Volunteer]>",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Excluded from map editor"]
+	},
 	// Bonus resources
 	{
 		"name": "Cattle",
@@ -206,39 +239,6 @@
 					"Minor deposits generated with weight [10] <in [{Featureless} {Snow}] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	// Stockpilled resources
-	{
-		"name": "Tourism",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen <without [Tourism]>",
-			"Stockpilled",
-			"Cannot be traded",
-			"Doesn't generate naturally",
-			"Excluded from map editor"]
-	},
-	{
-		"name": "Great Work",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen <without [Great Work]>",
-			"Stockpilled",
-			"Cannot be traded",
-			"Doesn't generate naturally",
-			"Excluded from map editor"]
-	},
-	{
-		"name": "Great Work Slot",
-		"resourceType": "Bonus",
-		"uniques": ["Doesn't generate naturally",
-			"Excluded from map editor"]
-	},
-	{
-		"name": "Foreign Volunteer",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen <before discovering [Chivalry]>",
-			"Cannot be traded",
-			"Doesn't generate naturally",
-			"Excluded from map editor"]
 	},
 	// Luxury resources
 	{
