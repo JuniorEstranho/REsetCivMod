@@ -198,7 +198,7 @@
 		"replaces": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 14,
+		"strength": 13,
 		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
@@ -439,7 +439,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Great Generals I"],
+		"promotions": ["Cover I", "Great Generals I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -531,7 +531,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
-		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>", "[+25]% Strength <vs [Mounted] units> <when attacking>"],
+		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>"],
 		"promotions": ["Accuracy I"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
@@ -557,7 +557,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
-		"cost": 75,
+		"cost": 85,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -574,7 +574,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
-		"cost": 65,
+		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -765,6 +765,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Turcopole Cavalry",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 14,
+		"rangedStrength": 16,
+		"cost": 90,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Foreign Volunteer",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>","Can move immediately once bought", "Mercenary Unit","Only available <after adopting [Mercenary Army]>","Never appears as a Barbarian unit"],
+		"promotions": ["Homeland Defensor"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -796,12 +811,12 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 11,
-		"rangedStrength": 27,
+		"rangedStrength": 26,
 		"cost": 120,
 		"requiredTech": "Physics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
-		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"uniques": ["No damage penalty for wounded units","No defensive terrain bonus","Must set up to ranged attack"],
 		"attackSound": "throw"
 	},
 	{
@@ -846,6 +861,20 @@
 		"requiredResource": "Iron",
 		"uniques": ["Can instantly construct a [Fishing Boats] improvement"],
 		"promotions": ["Shock I","Great Generals II"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Templar Knight",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Foreign Volunteer",
+		"uniques": ["Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "Only available <after adopting [Holy Warriors]>"],
+		"promotions": ["Deus Vult","Homeland Defensor"],
 		"attackSound": "metalhit"
 	},
 
@@ -1344,9 +1373,10 @@
 		"strength": 50,
 		"cost": 160,
 		"requiredTech": "Replaceable Parts",
+		"requiredResource": "Foreign Volunteer",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Volunteer Unit", "Can move immediately once bought", "Limited to [12] per Civilization", "Only available <after adopting [Volunteer Army]>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Volunteer Unit", "Can move immediately once bought", "Only available <after adopting [Volunteer Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1413,7 +1443,7 @@
 		"cost": 250,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["Can move immediately once bought", "Limited to [12] per Civilization","Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["Can move immediately once bought", "Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1642,7 +1672,7 @@
 	},
 	{
 		"name": "Bazooka",
-		"unitType": "Gunpowder",
+		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"range": 1,
 		"strength": 85,
@@ -1799,10 +1829,11 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Instantly gain [1] [Great Work] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
+            "Great Person - [Culture]", "Unbuildable", "Commemt [Uncapturable]"],
 		"movement": 2
 	},
 	{
@@ -1813,7 +1844,8 @@
             "Can instantly construct a [Academy] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Scientist] group",
-            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
+            "Great Person - [Science]", "Unbuildable", "Comment [Uncapturable]"],
 		"movement": 2
 	},
 	{
@@ -1823,7 +1855,8 @@
             "Can instantly construct a [Customs house] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Merchant] group",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
+			"Great Person - [Gold]", "Unbuildable", "Comment [Uncapturable]"],
 		"movement": 2
 	},
 	{
@@ -1833,7 +1866,8 @@
             "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Engineer] group",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
+            "Great Person - [Production]", "Unbuildable", "Comment [Uncapturable]"],
 		"movement": 2
 	},
 	{
