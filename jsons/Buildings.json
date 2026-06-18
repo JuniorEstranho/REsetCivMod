@@ -1303,5 +1303,31 @@
 		"faith": 2,
 		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+	}, 
+		// Great Works
+	{
+		"name": "Creation of Adam",
+		"faith": 2,
+		"isWonder": true,
+		"cost": 0,
+		"uniques": ["[+1 Faith] from every specialist [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
+		"quote": "'God created man in his own image, in the image of God he created him.' - Old Testament, Genesis 26:27'"
+	},
+	{
+		"name": "The Starry Night",
+		"happiness": 2,
+		"isWonder": true,
+		"cost": 0,
+		"uniques": ["[-15]% Culture cost of natural border growth [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+	},
+	{
+		"name": "Monalisa",
+		"happiness": 2,
+		"isWonder": true,
+		"cost": 0,
+		"uniques": ["[+25]% Golden Age length","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
 	}
 ]
