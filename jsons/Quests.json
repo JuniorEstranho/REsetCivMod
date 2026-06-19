@@ -34,7 +34,7 @@
   },
   {
     "name": "Construct Wonder",
-    "description": "We recommend you to start building [{wonder} {non-[Great Art]}] to show the whole world your civilization strength.",
+    "description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
       "weightForCityStateType": {
           "Cultured": 3
       }
