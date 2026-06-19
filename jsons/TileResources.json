@@ -1,5 +1,5 @@
 [
-	// Stockpiled resources
+	// Other resources
 	{
 		"name": "Tourism",
 		"resourceType": "Strategic",
@@ -10,10 +10,19 @@
 			"Excluded from map editor"]
 	},
 	{
+		"name": "Total Culture",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen",
+			"Stockpiled",
+			"Cannot be traded",
+			"Doesn't generate naturally",
+			"Will not be displayed in Civilopedia",
+			"Excluded from map editor"]
+	},
+	{
 		"name": "Great Work",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen <without [Great Work]>",
-			"Stockpiled",
 			"Cannot be traded",
 			"Doesn't generate naturally",
 			"Excluded from map editor"]
@@ -23,6 +32,11 @@
 		"resourceType": "Bonus",
 		"uniques": ["Doesn't generate naturally",
 			"Excluded from map editor"]
+	},
+	{
+		"name": "Artifact",
+		"resourceType": "Bonus",
+		"uniques": ["Doesn't generate naturally"]
 	},
 	{
 		"name": "Foreign Volunteer",
