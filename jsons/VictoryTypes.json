@@ -12,12 +12,12 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
-        "name": "Cultural",
-        "victoryScreenHeader": "Attract more tourism than other nations to win!",
-        "milestones": ["Have more [Tourism] than each player's [Total Culture]"],
-        "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
+       "name": "Cultural",
+        "victoryScreenHeader": "Complete 5 policy branches and build the Utopia Project to win!",
+        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
+        "victoryString": "You triumphed over other ideologies. The world was united by your ideological capacity! Various ideologies and beliefs have arisen throughout the ages of humanity, but yours is the one that triumphed over them all – the world felt the power of your banner.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
+    }, 
     {
         "name": "Domination",
         "victoryScreenHeader": "Capture all enemies to win!",
@@ -37,13 +37,6 @@
         "victoryScreenHeader": "Build the Grand Temple and convert the whole world to your religion to win!",
         "milestones": ["Become the world religion", "Build [Grand Temple]"],
         "victoryString": "You have triumphed over other nations, not through bloodshed, destruction, or corruption, but through the honor and spiritual morality inherited from our great prophets - the nations are grateful for your profound enlightenment in a world of greed and fear!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
-    {
-        "name": "Utopian",
-        "victoryScreenHeader": "Complete 5 policy branches and build the Utopia Project to win!",
-        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
-        "victoryString": "You triumphed over other ideologies. The world was united by your ideological capacity! Various ideologies and beliefs have arisen throughout the ages of humanity, but yours is the one that triumphed over them all – the world felt the power of your banner.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
