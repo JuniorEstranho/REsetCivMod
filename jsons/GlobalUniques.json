@@ -8,23 +8,25 @@
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
         "Rebel units may spawn <when below [-20] [Happiness]>",
-        //Religious victory rebalance
+        // Religious victory rebalance
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-25]% Natural religion spread [in all cities] <for [non-[Ethiopia]] Civilizations> <when [Religious] Victory is enabled>"
+        "[-25]% Natural religion spread [in all cities] <for [non-[Ethiopia]] Civilizations> <when [Religious] Victory is enabled>",
+        // Cultural victory system
+        "Provides [1] [Total Culture] <for every [1] [[Culture] Per Turn]> <when [Cultural] Victory is enabled>"
     ],
     "unitUniques": [
-        //Polynesia
+        // Polynesia
         "[-1] Sight <when [Embarked]> <for [non-[Polynesia]] Civilizations>",
-        //France
+        // France
         "[-100]% to Flank Attack bonuses <vs [France] units>",
-        //The Tupi
+        // The Tupi
         "[3] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
-        //England
+        // England
         "May enter foreign tiles without open borders <when [Water]> <for [England] Civilizations>", 
-        //Romania
+        // Romania
         "No defensive terrain bonus <in [Romania] tiles> <for [non-[Romania]] Civilizations>",
         "[-50]% Health from pillaging tiles <in [Romania] tiles>",
-        //Persia
+        // Persia
         "[This Unit] gains [1] XP <upon turn start> <during a Golden Age> <for [Persia] Civilizations>"], 
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
