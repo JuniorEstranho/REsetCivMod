@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Pathfinder",
-		"uniqueTo"; "Shoshone",
+		"uniqueTo": "Shoshone",
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
