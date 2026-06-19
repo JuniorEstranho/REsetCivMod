@@ -509,7 +509,7 @@
 	{
 		"name": "Siege Tower",
 		"uniqueTo": "Assyria",
-		"replaces"; "Catapult",
+		"replaces": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 11,
