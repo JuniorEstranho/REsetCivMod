@@ -23,6 +23,7 @@
 		"name": "Great Work",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen <without [Great Work]>",
+			"Stockpiled",
 			"Cannot be traded",
 			"Doesn't generate naturally",
 			"Excluded from map editor"]
