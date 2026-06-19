@@ -45,6 +45,21 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Blowgunner",
+		"uniqueTo": "The Tupi",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Warrior] through ruins-like effects"],
+		"promotions": ["Scouting I","Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -291,7 +306,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking"],
-		"promotions": ["Charge"],
+		"promotions": ["Barrage I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -308,22 +323,6 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Blowgunner",
-		"uniqueTo": "The Tupi",
-		"replaces": "Chariot Archer",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 10,
-		"cost": 40,
-		"requiredTech": "Trapping",
-		"upgradesTo": "Crossbowman",
-		"obsoleteTech": "Machinery",
-		"uniques": ["[+1] Sight"],
-		"promotions": ["Barrage I", "Woodsman"],
 		"attackSound": "arrow"
 	},
 	{
@@ -652,7 +651,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","[1] additional attacks","[-50]% maintenance costs"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","[1] additional attacks per turn","[-50]% maintenance costs"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -1145,7 +1144,7 @@
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Heavy Charge","Formation I", "Formation II"],
+		"promotions": ["Formation I", "Formation II","Charge"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1904,7 +1903,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
 			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
