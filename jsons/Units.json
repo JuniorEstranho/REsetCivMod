@@ -1815,7 +1815,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Provides [1] [Great Work] <by consuming this unit>",
+            "Instantly provides [1] [Great Work] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
 			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
