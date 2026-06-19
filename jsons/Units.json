@@ -765,21 +765,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Turcopole Cavalry",
-		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 14,
-		"rangedStrength": 16,
-		"cost": 90,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Foreign Volunteer",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-50]% Strength <vs cities> <when attacking>","Can move immediately once bought", "Mercenary Unit","Only available <after adopting [Mercenary Army]>","Never appears as a Barbarian unit"],
-		"promotions": ["Homeland Defensor"],
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Crossbowman",
 		"unitType": "Archery",
 		"movement": 2,
@@ -1418,6 +1403,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -1439,7 +1425,7 @@
 		"name": "Guerrilla",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 68,
+		"strength": 65,
 		"cost": 250,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
@@ -1829,7 +1815,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Instantly provides [1] [Great Work] <by consuming this unit>",
+            "Provides [1] [Great Work] <by consuming this unit>",
             "Is part of Great Person group [Great Person]",
             "[This Unit] gets a name from the [Artist] group",
 			"Uncapturable <for [non-[May capture Great Person]] Civilizations> <hidden from users>",
