@@ -1310,7 +1310,7 @@
 		"happiness": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+1 Culture] from [Luxury resource] tiles [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+1 Culture] from [Luxury resource] tiles [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1318,7 +1318,7 @@
 		"faith": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+2 Faith] from every specialist [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+2 Faith] from every specialist [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
 		"quote": "'God created man in his own image, in the image of God he created him.' - Old Testament, Genesis 26:27'"
 	},
@@ -1327,7 +1327,7 @@
 		"happiness": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+25]% Great Person generation [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+25]% Great Person generation [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1335,7 +1335,7 @@
 		"science": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","[+25]% Golden Age length","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","[+25]% Golden Age length","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1343,7 +1343,7 @@
 		"happiness": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1351,7 +1351,7 @@
 		"happiness": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+25]% Golden Age length","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+25]% Golden Age length","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
 	},
 	{
@@ -1359,7 +1359,7 @@
 		"science": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+2 Science] from every specialist [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+2 Science] from every specialist [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1367,7 +1367,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["Provides [3] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["Provides [3] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1375,7 +1375,7 @@
 		"happiness": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+50]% Yield from every [Natural Wonder]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+50]% Yield from every [Natural Wonder]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1383,7 +1383,7 @@
 		"faith": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+50]% Natural religion spread [in this city]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+50]% Natural religion spread [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1391,7 +1391,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[20]% Food is carried over after population increases [in all cities]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[20]% Food is carried over after population increases [in all cities]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1399,7 +1399,7 @@
 		"happiness": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["Provides [4] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["Provides [4] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
 	},
 	{
@@ -1407,7 +1407,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[-10]% Culture cost of adopting new Policies","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[-10]% Culture cost of adopting new Policies","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	},
 	{
@@ -1415,7 +1415,7 @@
 		"food": 2,
 		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+10]% growth [in all cities]","Provides [2] [Tourism]", "Consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"uniques": ["[+10]% growth [in all cities]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
 		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
 	}
 ]
