@@ -1117,7 +1117,7 @@
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-10]% Culture cost of adopting new Policies"],
+		"uniques": ["[-25]% Culture cost of adopting new Policies"],
 		"requiredTech": "Plastics",
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
@@ -1306,116 +1306,143 @@
 	}, 
 		// Great Works
 	{
-		"name": "Abaporu",
-		"happiness": 2,
-		"isWonder": true,
+		"name": "Saint George Killing the Dragon",
+		"culture": 1,
+		"faith": 2,
 		"cost": 0,
-		"uniques": ["[+1 Culture] from [Luxury resource] tiles [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "Creation of Adam",
-		"faith": 2,
-		"isWonder": true,
+		"faith": 1,
 		"cost": 0,
 		"uniques": ["[+2 Faith] from every specialist [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"],
 		"quote": "'God created man in his own image, in the image of God he created him.' - Old Testament, Genesis 26:27'"
 	},
 	{
 		"name": "Girl with a Pearl Earring",
-		"happiness": 2,
-		"isWonder": true,
+		"happiness": 1,
 		"cost": 0,
 		"uniques": ["[+25]% Great Person generation [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
+	},
+	{
+		"name": "George Washington",
+		"culture": 2,
+		"cost": 0,
+		"uniques": ["Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "Guernica",
 		"science": 2,
-		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]","[+25]% Golden Age length","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["[-5]% Unhappiness from [Population] [in all cities]","[+25]% Golden Age length","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "The Starry Night",
 		"happiness": 2,
-		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","Provides [2] [Tourism]", "Instantly consumes [2] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
-		"name": "Monalisa",
-		"happiness": 2,
-		"isWonder": true,
+		"name": "Liberty Leading the People",
+		"culture": 2,
 		"cost": 0,
-		"uniques": ["[+25]% Golden Age length","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
+		"uniques": ["[-10]% Culture cost of adopting new Policies","Provides [1] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
+	},
+	{
+		"name": "Mona Lisa",
+		"culture": 3,
+		"cost": 0,
+		"uniques": ["Provides [5] [Tourism]", "Instantly consumes [2] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
+	},
+	{
+		"name": "The Portraid of a Man in a Turban",
+		"culture": 3,
+		"cost": 0,
+		"uniques": ["Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
+	},
+	{
+		"name": "The Card Players",
+		"cost": 0,
+		"uniques": ["[+1 Happiness] [in all cities]","Provides [1] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "The Death of Socrates",
 		"science": 2,
-		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+2 Science] from every specialist [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["[+2 Science] from every specialist [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [2] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
-		"name": "The Scream",
-		"culture": 2,
-		"isWonder": true,
+		"name": "The Cruxificion of Saint Peter",
+		"faith": 3,
 		"cost": 0,
-		"uniques": ["Provides [3] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "The Spring",
-		"happiness": 2,
-		"isWonder": true,
+		"happiness": 1,
 		"cost": 0,
-		"uniques": ["[+50]% Yield from every [Natural Wonder]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["[+50]% Yield from every [Natural Wonder] <in this city>","Provides [1] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
+	},
+	{
+		"name": "The Swing",
+		"culture": 2,
+		"cost": 0,
+		"uniques": ["Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "The Last Supper",
 		"faith": 2,
-		"isWonder": true,
 		"cost": 0,
-		"uniques": ["[+50]% Natural religion spread [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["[+50]% Natural religion spread [in this city]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [2] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
-		"name": "The Last Tamoio",
-		"culture": 2,
-		"isWonder": true,
+		"name": "The Peacemakers",
+		"culture": 4,
 		"cost": 0,
-		"uniques": ["[20]% Food is carried over after population increases [in all cities]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["Provides [1] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
+	},
+	{
+		"name": "The Tower of Babel",
+		"cost": 0,
+		"uniques": ["[+1 Culture] [in annexed cities]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "The Birth of Venus",
 		"happiness": 2,
-		"isWonder": true,
 		"cost": 0,
 		"uniques": ["Provides [4] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"],
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"],
 	},
 	{
 		"name": "The Persistence of Memory",
-		"culture": 2,
-		"isWonder": true,
+		"science": 2,
 		"cost": 0,
-		"uniques": ["[-10]% Culture cost of adopting new Policies","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"uniques": ["Provides [3] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [2] [Great Work Slot]","Great Art",
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	},
 	{
 		"name": "The Kiss",
 		"food": 2,
-		"isWonder": true,
 		"cost": 0,
 		"uniques": ["[+10]% growth [in all cities]","Provides [2] [Tourism]", "Instantly consumes [1] [Great Work]","Consumes [1] [Great Work Slot]","Great Art",
-		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>"]
+		"Only available <with [Great Work]> <hidden from users>","Never destroyed when city is captured <hidden from users>","Unsellable <hidden from users>","Only available <when [Cultural] Victory is enabled> <hidden from users>","Limited to [1] per Civilization <hidden from users>"]
 	}
 ]
