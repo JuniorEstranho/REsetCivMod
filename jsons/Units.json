@@ -1075,20 +1075,6 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Barbary Corsair",
-		"uniqueTo": "The Ottomans"
-		"replaces":  "Privateer",
-		"unitType": "Melee Water",
-		"movement": 6,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
-		"uniques": ["[+50]% Strength <vs [Land] units> <when attacking>"],
-		"promotions": ["Coastal Raider I", "[Privateer] ability", "Landing Party"],
-		"attackSound": "cannon"
-	},
-	{
 		"name": "Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
@@ -1176,6 +1162,22 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Hakkapeliitta] ability", "Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sipahi",
+		"uniqueTo": "The Ottomans",
+		"name": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+1] Sight"],
+		"promotions": ["Formation I","[Sipahi] ability"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1384,7 +1386,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Full Moon Striker"],
+		"promotions": ["Mobility"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1446,7 +1448,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
-		"cost": 160,
+		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
@@ -1698,7 +1700,6 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["[Panzer] ability"],
 		"attackSound": "tankshot"
 	},
 	{
