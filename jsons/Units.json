@@ -651,7 +651,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","[1] additional attacks per turn","[-50]% maintenance costs"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Gunpowder] units>","[1] additional attacks per turn"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -663,7 +663,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move immediately once bought","Mercenary Unit","Can only heal by pillaging", "Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Can move immediately once bought","Mercenary Unit","Unbuildable"],
 		"promotions": ["City Plunder"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -678,7 +678,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["Can move immediately once bought","Mercenary Unit","Can only heal by pillaging", "Heals [25] damage if it kills a unit","[-50]% production cost <after adopting [Mercenary Army]>"],
+		"uniques": ["Can move immediately once bought","Mercenary Unit", "Heals [25] damage if it kills a unit","[-50]% production cost <after adopting [Mercenary Army]>"],
 		"promotions": ["City Plunder", "[Jagas Warrior] ability"],
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
@@ -917,7 +917,7 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "Only available <after adopting [Holy Warriors]>"],
-		"promotions": ["Deus Vult","Homeland Defensor"],
+		"promotions": ["Deus Vult","Homeland Guardian"],
 		"attackSound": "metalhit"
 	},
 
@@ -1336,7 +1336,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Homeland Defensor", "Desert Warrior"],
+		"promotions": ["Homeland Guardian", "Desert Warrior"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1351,7 +1351,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Drill I", "Formation I"],
 		"attackSound": "cavalry"
 	},
@@ -1384,7 +1384,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Mobility"],
+		"promotions": ["Full Moon Striker"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1513,11 +1513,11 @@
 		"name": "Guerrilla",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 65,
-		"cost": 250,
+		"strength": 60,
+		"cost": 225,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["Can move immediately once bought", "Mercenary Unit","Only available <after adopting [Mercenary Army]>"],
+		"uniques": ["Ignores terrain cost","Can move immediately once bought", "Mercenary Unit","Unbuildable"],
 		"attackSound": "shot"
 	},
 	{
