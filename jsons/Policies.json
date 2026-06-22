@@ -209,7 +209,7 @@
             {
                 "name": "Honor Complete",
                 "uniques": [
-                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
+                    "Earn [50]% of killed [Military] unit's [Cost] as [Golden Age points]",
                     "Get the leader title of [[leaderName] the Great]"
                 ]
             }
@@ -234,8 +234,8 @@
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Culture] from every [Shrine]",
-                    "[+1 Culture] from every [Temple]"
+                    "[+1 Faith] from every [Shrine]",
+                    "[+1 Faith] from every [Temple]"
                 ],
                 "row": 1,
                 "column": 2
@@ -267,7 +267,7 @@
             {
                 "name": "Free Religion",
                 "uniques": ["[-10]% Culture cost of adopting new Policies",
-                    "[+2 Happiness] [in all cities] <in cities with a [foreign] religion>"],
+                    "[+1 Happiness] [in all cities] <in cities with a [foreign] religion>"],
                 "requires": ["Mandate Of Heaven", "Reformation"],
                 "row": 3,
                 "column": 4
@@ -366,10 +366,9 @@
             {
                 "name": "Mercenary Army",
                 "uniques": [
-                    "Comment [[Landsknecht] is available]",
-                    "Comment [[Guerrilla] is available]",
-                    "[-100]% maintenance costs <for [Landsknecht] units>",
-                    "[-100]% maintenance costs <for [Guerrilla] units>"
+                    "May buy [Landsknecht] units with [Gold] [in all cities]",
+                    "May buy [Guerrilla] units with [Gold] [in all cities]",
+                    "[-50]% maintenance costs <for [Mercenary Unit] units>"
                 ],
                 "row": 1,
                 "column": 2
@@ -377,8 +376,7 @@
             {
                 "name": "Wagon Trains",
                 "uniques": [
-                    "[-50]% maintenance on road & railroads",
-                    "[+2 Gold] [in all cities connected to capital]"
+                    "[-50]% maintenance on road & railroads"
                 ],
                 "row": 1,
                 "column": 4
