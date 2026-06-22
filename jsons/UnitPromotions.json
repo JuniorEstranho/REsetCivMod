@@ -702,7 +702,7 @@
 		"uniques": ["Ignores terrain cost"]
 	},
 	{
-		"name": "Homeland Defensor",
+		"name": "Homeland Guardian",
 		"uniques": ["[+25]% Strength <when fighting in [your] tiles>"],
 	},
 	{
@@ -767,11 +767,11 @@
 	},
 	{
 		"name": "[Janissary] ability",
-		"uniques": ["Heals [60] damage if it kills a unit"]
+		"uniques": ["Heals [50] damage if it kills a unit"]
 	},
 	{
 		"name": "[Jagas Warrior] ability",
-		"uniques": ["[This Unit] heals [33] HP <upon being promoted>"]
+		"uniques": ["[This Unit] heals [30] HP <upon being promoted>"]
 	},
 	{
 		"name": "[Mandekalu Cavalry] ability",
@@ -799,7 +799,7 @@
 		"uniques": ["Earn [+200]% of killed [Military] unit's [Strength] as [Golden Age points]"]
 	},
 	{
-		"name": "[Panzer] ability",
+		"name": "[Sipahi] ability",
 		"uniques": ["No movement cost to pillage"]
 	},
 	{
