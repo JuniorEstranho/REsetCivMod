@@ -13,8 +13,7 @@
         "[-25]% Natural religion spread [in all cities] <for [non-[Ethiopia]] Civilizations> <when [Religious] Victory is enabled>"
     ],
     "unitUniques": [
-        // Polynesia
-        "[-1] Sight <when [Embarked]> <for [non-[Polynesia]] Civilizations>",
+        "[-1] Sight <when [Embarked]>",
         // France
         "[-100]% to Flank Attack bonuses <vs [France] units>",
         // The Tupi
