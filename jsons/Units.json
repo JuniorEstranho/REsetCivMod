@@ -55,9 +55,9 @@
 		"cost": 25,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Warrior] through ruins-like effects"],
-		"promotions": ["Scouting I","Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost","Medic"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Warrior",
@@ -95,7 +95,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
-		"cost": 36,
+		"cost": 40,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
@@ -112,7 +112,6 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Mercenary Unit"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -182,7 +181,6 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Mercenary Unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -337,7 +335,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus","Rough terrain penalty", "Mercenary Unit"],
+		"uniques": ["No defensive terrain bonus","Rough terrain penalty"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -393,7 +391,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"promotions": ["[Persian Immortal] ability","Shock I"],
+		"promotions": ["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -421,7 +419,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Mercenary Unit"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 
@@ -445,7 +443,7 @@
 		"uniqueTo": "Byzantium",
 		"replaces": "Horseman",
 		"unitType": "Mounted",
-		"movement": 4,
+		"movement": 3,
 		"strength": 15,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
@@ -453,7 +451,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Cover I", "Great Generals I"],
+		"promotions": ["Shock I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -469,7 +467,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" , "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
-		"promotions": ["Shock I","Great Generals I"],
+		"promotions": ["Great Generals I"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
 	},
@@ -517,6 +515,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","[+30]% Strength bonus for [Sword] units within [2] tiles <in tiles adjacent to [{City center} {Enemy}] tiles>", "Can only attack [City] units","No defensive terrain bonus"],
+		"promotions": ["Cover I"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
@@ -835,6 +834,21 @@
 		"attackSound": "crossbow"
 	},
 	{
+		"name": "Longbowman",
+		"uniqueTo": "England",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Extended Range"],
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
 		"movement": 2,
@@ -916,7 +930,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "Only available <after adopting [Holy Warriors]>"],
+		"uniques": ["Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "Unbuildable"],
 		"promotions": ["Deus Vult","Homeland Guardian"],
 		"attackSound": "metalhit"
 	},
@@ -991,21 +1005,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Ignores terrain cost"],
 		"promotions": ["Drill I"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Redcoat",
-		"uniqueTo": "England",
-		"replaces": "Musketman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"uniques": ["[+20]% Strength <when fighting in [Enemy Land] tiles>"],
-		"promotions": ["Great Generals II"],
 		"attackSound": "shot"
 	},
 	{
@@ -1102,7 +1101,7 @@
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"promotions": ["Double Mobility","Sentry"],
+		"promotions": ["Sentry"],
 		"attackSound": "shipCannonVolley"
 	},
 	{
@@ -1120,6 +1119,21 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Llaneiro",
+		"uniqueTo": "Colombia",
+		"replaces": "Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Can pass through impassable tiles"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
 		"name": "Winged Hussar",
 		"uniqueTo": "Poland",
 		"replaces": "Lancer",
@@ -1131,21 +1145,6 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Formation I", "Formation II","Charge"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Llaneiro",
-		"uniqueTo": "Colombia",
-		"replaces": "Lancer",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Can pass through impassable tiles"],
-		"promotions": ["Drill I", "Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
@@ -1968,6 +1967,21 @@
 		"unitType": "Civilian",
 		"uniques": [
             "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [General] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing","[+15] HP when healing",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
