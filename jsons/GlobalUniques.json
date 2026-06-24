@@ -10,7 +10,7 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-25]% Natural religion spread [in all cities] <for [non-[Ethiopia]] Civilizations> <when [Religious] Victory is enabled>"
+        "[-25]% Natural religion spread [in all cities] <when [Religious] Victory is enabled>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
