@@ -16,6 +16,7 @@
         "[-1] Sight <when [Embarked]>",
         // France
         "[-100]% to Flank Attack bonuses <vs [France] units>",
+        "Ignores Zone of Control <for [France] Civilizations>",
         // The Tupi
         "[3] additional attacks per turn <in [{your} {City center}] tiles> <for [The Tupi] Civilizations>",
         // England
