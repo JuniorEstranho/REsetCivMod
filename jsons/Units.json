@@ -45,21 +45,6 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Blowgunner",
-		"uniqueTo": "The Tupi",
-		"replaces": "Scout",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 6,
-		"cost": 25,
-		"requiredTech": "Agriculture",
-		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
-		"promotions": ["Ignore terrain cost","Medic"],
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -165,6 +150,21 @@
 		"rangedStrength": 7,
 		"cost": 36,
 		"requiredTech": "Agriculture",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Blowgunner",
+		"uniqueTo": "The Tupi",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"promotions": ["Woodsman"],
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
@@ -450,8 +450,9 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Shock I"],
+		"uniques": ["Can move after attacking","[-25]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Spearman] units> <when defending>", "[+50]% Strength <vs [Pikeman] units> <when defending>"],
+		"promotions": ["Formation I"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -525,15 +526,14 @@
 		"replaces": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
-		"range": 2,
+		"strength": 8,
+		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
+			"Must set up to ranged attack"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -559,7 +559,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
-		"uniques": ["[+25]% Strength <vs [Siege] units> <when attacking>"],
+		"uniques": ["[+20]% Strength <vs [Siege] units> <when attacking>"],
 		"promotions": ["Accuracy I"],
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
@@ -616,15 +616,14 @@
 		"replaces": "Swordsman",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 16,
+		"strength": 17,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Road] improvements on tiles","Can build [Fort] improvements on tiles"],
-		"promotions": ["March"],
 		"attackSound": "metalhit"
 	},
 
@@ -920,20 +919,6 @@
 		"promotions": ["Shock I","Great Generals II"],
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Templar Knight",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": ["Earn [200]% of killed [Military] unit's [Strength] as [Faith]", "Unbuildable"],
-		"promotions": ["Deus Vult","Homeland Guardian"],
-		"attackSound": "metalhit"
-	},
 
 	// Rennaisance Era
 
@@ -1013,9 +998,10 @@
 		"replaces": "Musketman",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 27,
+		"strength": 28,
 		"cost": 150,
 		"requiredTech": "Gunpowder",
+		"promotions": ["Great Generals II"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
@@ -1274,8 +1260,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"uniques": ["[+25]% Strength <when [Wounded]>"],
-		"promotions": ["Mobility"],
+		"promotions": ["March"],
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
@@ -1353,7 +1338,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["Drill I", "Formation I"],
+		"promotions": ["Drill I", "Home Sweet Home"],
 		"attackSound": "cavalry"
 	},
 	{
@@ -1447,11 +1432,12 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 50,
-		"cost": 320,
+		"cost": 160,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Volunteer Unit", "Can move immediately once bought", "Only available <after adopting [Volunteer Army]>"],
+		"uniques": ["Volunteer Unit", "Can move immediately once bought", "Unbuildable"],
+		"promotions": ["[Foreign Legion] ability"],
 		"attackSound": "shot"
 	},
 	{
