@@ -795,6 +795,10 @@
 		"uniques": ["Earn [+200]% of killed [Military] unit's [Strength] as [Golden Age points]"]
 	},
 	{
+		"name": "[Foreign Legion] ability",
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+	},
+	{
 		"name": "[Sipahi] ability",
 		"uniques": ["No movement cost to pillage"]
 	},
