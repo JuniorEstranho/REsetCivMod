@@ -535,7 +535,8 @@
             },
             {
                 "name": "Volunteer Army",
-                "uniques": ["Comment [[Foreign Legion] is available]",
+                "uniques": ["[6] free [Foreign Legion] units appear",
+                    "May buy [Foreign Legion] units with [Gold] [in all cities]",
                     "[-100]% maintenance costs <for [Foreign Legion] units>"],
                 "requires": ["Universal Suffrage"],
                 "row": 2,
