@@ -10,7 +10,12 @@
         "Rebel units may spawn <when below [-20] [Happiness]>",
         // Religious victory rebalance
         "Nullifies [Faith] [in all cities] <when below [-20] [Happiness]> <when [Religious] Victory is enabled>",
-        "[-25]% Natural religion spread [in all cities] <when [Religious] Victory is enabled>"
+        "[-25]% Natural religion spread [in all cities] <when [Religious] Victory is enabled>",
+        // City-States debuff
+        "[-20]% [Science] [in all cities] <for [City-States] Civilizations>",
+        "[+20]% Culture cost of natural border growth [in all cities] <for [City-States] Civilizations>",
+        // Romania
+        "[+200]% Gold cost of acquiring tiles [in all cities] <within [3] tiles of a [Romania]>"
     ],
     "unitUniques": [
         "[-1] Sight <when [Embarked]>",
