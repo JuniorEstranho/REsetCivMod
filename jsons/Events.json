@@ -15,6 +15,26 @@
 			}
 		]
 	},
+	{
+		"name": "France Culture Amount",
+		"text": "France Culture Amount",
+		"presentation": "None",
+		"choices": [
+			{
+				"name": "France Culture Amount",
+				"uniques": [
+					"Gain [250] [Culture] <during the [Ancient era]> <(modified by game speed)>",
+					"Gain [500] [Culture] <during the [Classical era]> <(modified by game speed)>",
+					"Gain [700] [Culture] <during the [Medieval era]> <(modified by game speed)>",
+					"Gain [900] [Culture] <during the [Renaissance era]> <(modified by game speed)>",
+					"Gain [1200] [Culture] <during the [Industrial era]> <(modified by game speed)>",
+					"Gain [1600] [Culture] <during the [Modern era]> <(modified by game speed)>", 
+					"Gain [2000] [Culture] <during the [Information era]> <(modified by game speed)>",
+					"Gain [2500] [Culture] <during the [Future era]> <(modified by game speed)>"
+				]
+			}
+		]
+	},	
 	{ //Tutorial Stuff
         "name":"Tutorial Task: [Move unit]",
         "presentation":"Floating",
